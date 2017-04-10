@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C21DC0C1E9B2FCA0068A413 /* 808k_a-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBF21E9B2FCA0068A413 /* 808k_a-1.wav */; };
+		7C21DC0D1E9B2FCA0068A413 /* 808k_a.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBF31E9B2FCA0068A413 /* 808k_a.wav */; };
+		7C21DC0E1E9B2FCA0068A413 /* 808k_a#-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBF41E9B2FCA0068A413 /* 808k_a#-1.wav */; };
+		7C21DC0F1E9B2FCA0068A413 /* 808k_a#.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBF51E9B2FCA0068A413 /* 808k_a#.wav */; };
+		7C21DC101E9B2FCA0068A413 /* 808k_b-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBF61E9B2FCA0068A413 /* 808k_b-1.wav */; };
+		7C21DC111E9B2FCA0068A413 /* 808k_b.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBF71E9B2FCA0068A413 /* 808k_b.wav */; };
+		7C21DC121E9B2FCA0068A413 /* 808k_c-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBF81E9B2FCA0068A413 /* 808k_c-1.wav */; };
+		7C21DC131E9B2FCA0068A413 /* 808k_c.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBF91E9B2FCA0068A413 /* 808k_c.wav */; };
+		7C21DC141E9B2FCA0068A413 /* 808k_c#-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBFA1E9B2FCA0068A413 /* 808k_c#-1.wav */; };
+		7C21DC151E9B2FCA0068A413 /* 808k_c#.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBFB1E9B2FCA0068A413 /* 808k_c#.wav */; };
+		7C21DC161E9B2FCA0068A413 /* 808k_c+1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBFC1E9B2FCA0068A413 /* 808k_c+1.wav */; };
+		7C21DC171E9B2FCA0068A413 /* 808k_d-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBFD1E9B2FCA0068A413 /* 808k_d-1.wav */; };
+		7C21DC181E9B2FCA0068A413 /* 808k_d.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBFE1E9B2FCA0068A413 /* 808k_d.wav */; };
+		7C21DC191E9B2FCA0068A413 /* 808k_d#-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DBFF1E9B2FCA0068A413 /* 808k_d#-1.wav */; };
+		7C21DC1A1E9B2FCA0068A413 /* 808k_d#.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC001E9B2FCA0068A413 /* 808k_d#.wav */; };
+		7C21DC1B1E9B2FCA0068A413 /* 808k_e-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC011E9B2FCA0068A413 /* 808k_e-1.wav */; };
+		7C21DC1C1E9B2FCA0068A413 /* 808k_e.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC021E9B2FCA0068A413 /* 808k_e.wav */; };
+		7C21DC1D1E9B2FCA0068A413 /* 808k_f-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC031E9B2FCA0068A413 /* 808k_f-1.wav */; };
+		7C21DC1E1E9B2FCA0068A413 /* 808k_f.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC041E9B2FCA0068A413 /* 808k_f.wav */; };
+		7C21DC1F1E9B2FCA0068A413 /* 808k_f#-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC051E9B2FCA0068A413 /* 808k_f#-1.wav */; };
+		7C21DC201E9B2FCA0068A413 /* 808k_f#.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC061E9B2FCA0068A413 /* 808k_f#.wav */; };
+		7C21DC211E9B2FCA0068A413 /* 808k_g-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC071E9B2FCA0068A413 /* 808k_g-1.wav */; };
+		7C21DC221E9B2FCA0068A413 /* 808k_g.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC081E9B2FCA0068A413 /* 808k_g.wav */; };
+		7C21DC231E9B2FCA0068A413 /* 808k_g#-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC091E9B2FCA0068A413 /* 808k_g#-1.wav */; };
+		7C21DC241E9B2FCA0068A413 /* 808k_g#.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC0A1E9B2FCA0068A413 /* 808k_g#.wav */; };
+		7C21DC251E9B2FCA0068A413 /* marimba_c.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C21DC0B1E9B2FCA0068A413 /* marimba_c.wav */; };
+		7C21DC281E9BEFD80068A413 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C21DC271E9BEFD80068A413 /* AVFoundation.framework */; };
 		7C3C3ED31E99C8FD004C2FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3C3ED21E99C8FD004C2FB9 /* AppDelegate.swift */; };
 		7C3C3ED81E99C8FD004C2FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3ED61E99C8FD004C2FB9 /* Main.storyboard */; };
 		7C3C3EDA1E99C8FD004C2FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3ED91E99C8FD004C2FB9 /* Assets.xcassets */; };
@@ -19,6 +46,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C21DBF21E9B2FCA0068A413 /* 808k_a-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_a-1.wav"; path = "audio/808k_a-1.wav"; sourceTree = "<group>"; };
+		7C21DBF31E9B2FCA0068A413 /* 808k_a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 808k_a.wav; path = audio/808k_a.wav; sourceTree = "<group>"; };
+		7C21DBF41E9B2FCA0068A413 /* 808k_a#-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_a#-1.wav"; path = "audio/808k_a#-1.wav"; sourceTree = "<group>"; };
+		7C21DBF51E9B2FCA0068A413 /* 808k_a#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_a#.wav"; path = "audio/808k_a#.wav"; sourceTree = "<group>"; };
+		7C21DBF61E9B2FCA0068A413 /* 808k_b-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_b-1.wav"; path = "audio/808k_b-1.wav"; sourceTree = "<group>"; };
+		7C21DBF71E9B2FCA0068A413 /* 808k_b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 808k_b.wav; path = audio/808k_b.wav; sourceTree = "<group>"; };
+		7C21DBF81E9B2FCA0068A413 /* 808k_c-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_c-1.wav"; path = "audio/808k_c-1.wav"; sourceTree = "<group>"; };
+		7C21DBF91E9B2FCA0068A413 /* 808k_c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 808k_c.wav; path = audio/808k_c.wav; sourceTree = "<group>"; };
+		7C21DBFA1E9B2FCA0068A413 /* 808k_c#-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_c#-1.wav"; path = "audio/808k_c#-1.wav"; sourceTree = "<group>"; };
+		7C21DBFB1E9B2FCA0068A413 /* 808k_c#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_c#.wav"; path = "audio/808k_c#.wav"; sourceTree = "<group>"; };
+		7C21DBFC1E9B2FCA0068A413 /* 808k_c+1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_c+1.wav"; path = "audio/808k_c+1.wav"; sourceTree = "<group>"; };
+		7C21DBFD1E9B2FCA0068A413 /* 808k_d-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_d-1.wav"; path = "audio/808k_d-1.wav"; sourceTree = "<group>"; };
+		7C21DBFE1E9B2FCA0068A413 /* 808k_d.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 808k_d.wav; path = audio/808k_d.wav; sourceTree = "<group>"; };
+		7C21DBFF1E9B2FCA0068A413 /* 808k_d#-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_d#-1.wav"; path = "audio/808k_d#-1.wav"; sourceTree = "<group>"; };
+		7C21DC001E9B2FCA0068A413 /* 808k_d#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_d#.wav"; path = "audio/808k_d#.wav"; sourceTree = "<group>"; };
+		7C21DC011E9B2FCA0068A413 /* 808k_e-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_e-1.wav"; path = "audio/808k_e-1.wav"; sourceTree = "<group>"; };
+		7C21DC021E9B2FCA0068A413 /* 808k_e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 808k_e.wav; path = audio/808k_e.wav; sourceTree = "<group>"; };
+		7C21DC031E9B2FCA0068A413 /* 808k_f-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_f-1.wav"; path = "audio/808k_f-1.wav"; sourceTree = "<group>"; };
+		7C21DC041E9B2FCA0068A413 /* 808k_f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 808k_f.wav; path = audio/808k_f.wav; sourceTree = "<group>"; };
+		7C21DC051E9B2FCA0068A413 /* 808k_f#-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_f#-1.wav"; path = "audio/808k_f#-1.wav"; sourceTree = "<group>"; };
+		7C21DC061E9B2FCA0068A413 /* 808k_f#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_f#.wav"; path = "audio/808k_f#.wav"; sourceTree = "<group>"; };
+		7C21DC071E9B2FCA0068A413 /* 808k_g-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_g-1.wav"; path = "audio/808k_g-1.wav"; sourceTree = "<group>"; };
+		7C21DC081E9B2FCA0068A413 /* 808k_g.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 808k_g.wav; path = audio/808k_g.wav; sourceTree = "<group>"; };
+		7C21DC091E9B2FCA0068A413 /* 808k_g#-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_g#-1.wav"; path = "audio/808k_g#-1.wav"; sourceTree = "<group>"; };
+		7C21DC0A1E9B2FCA0068A413 /* 808k_g#.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_g#.wav"; path = "audio/808k_g#.wav"; sourceTree = "<group>"; };
+		7C21DC0B1E9B2FCA0068A413 /* marimba_c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = marimba_c.wav; path = audio/marimba_c.wav; sourceTree = "<group>"; };
+		7C21DC271E9BEFD80068A413 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7C3C3ECF1E99C8FD004C2FB9 /* CarlokoZSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarlokoZSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3C3ED21E99C8FD004C2FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C3C3ED71E99C8FD004C2FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,17 +91,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C21DC281E9BEFD80068A413 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C21DBF11E9B2E3B0068A413 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				7C21DBF21E9B2FCA0068A413 /* 808k_a-1.wav */,
+				7C21DBF31E9B2FCA0068A413 /* 808k_a.wav */,
+				7C21DBF41E9B2FCA0068A413 /* 808k_a#-1.wav */,
+				7C21DBF51E9B2FCA0068A413 /* 808k_a#.wav */,
+				7C21DBF61E9B2FCA0068A413 /* 808k_b-1.wav */,
+				7C21DBF71E9B2FCA0068A413 /* 808k_b.wav */,
+				7C21DBF81E9B2FCA0068A413 /* 808k_c-1.wav */,
+				7C21DBF91E9B2FCA0068A413 /* 808k_c.wav */,
+				7C21DBFA1E9B2FCA0068A413 /* 808k_c#-1.wav */,
+				7C21DBFB1E9B2FCA0068A413 /* 808k_c#.wav */,
+				7C21DBFC1E9B2FCA0068A413 /* 808k_c+1.wav */,
+				7C21DBFD1E9B2FCA0068A413 /* 808k_d-1.wav */,
+				7C21DBFE1E9B2FCA0068A413 /* 808k_d.wav */,
+				7C21DBFF1E9B2FCA0068A413 /* 808k_d#-1.wav */,
+				7C21DC001E9B2FCA0068A413 /* 808k_d#.wav */,
+				7C21DC011E9B2FCA0068A413 /* 808k_e-1.wav */,
+				7C21DC021E9B2FCA0068A413 /* 808k_e.wav */,
+				7C21DC031E9B2FCA0068A413 /* 808k_f-1.wav */,
+				7C21DC041E9B2FCA0068A413 /* 808k_f.wav */,
+				7C21DC051E9B2FCA0068A413 /* 808k_f#-1.wav */,
+				7C21DC061E9B2FCA0068A413 /* 808k_f#.wav */,
+				7C21DC071E9B2FCA0068A413 /* 808k_g-1.wav */,
+				7C21DC081E9B2FCA0068A413 /* 808k_g.wav */,
+				7C21DC091E9B2FCA0068A413 /* 808k_g#-1.wav */,
+				7C21DC0A1E9B2FCA0068A413 /* 808k_g#.wav */,
+				7C21DC0B1E9B2FCA0068A413 /* marimba_c.wav */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		7C21DC261E9BEFD70068A413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C21DC271E9BEFD80068A413 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C3C3EC61E99C8FD004C2FB9 = {
 			isa = PBXGroup;
 			children = (
 				7C3C3ED11E99C8FD004C2FB9 /* CarlokoZSounds */,
 				7C3C3ED01E99C8FD004C2FB9 /* Products */,
+				7C21DC261E9BEFD70068A413 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +159,7 @@
 		7C3C3ED11E99C8FD004C2FB9 /* CarlokoZSounds */ = {
 			isa = PBXGroup;
 			children = (
+				7C21DBF11E9B2E3B0068A413 /* audio */,
 				7C3C3EE61E99CF23004C2FB9 /* images */,
 				7C3C3ED21E99C8FD004C2FB9 /* AppDelegate.swift */,
 				7C3C3ED61E99C8FD004C2FB9 /* Main.storyboard */,
@@ -143,13 +241,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C21DC1E1E9B2FCA0068A413 /* 808k_f.wav in Resources */,
+				7C21DC181E9B2FCA0068A413 /* 808k_d.wav in Resources */,
+				7C21DC191E9B2FCA0068A413 /* 808k_d#-1.wav in Resources */,
+				7C21DC251E9B2FCA0068A413 /* marimba_c.wav in Resources */,
+				7C21DC1A1E9B2FCA0068A413 /* 808k_d#.wav in Resources */,
+				7C21DC211E9B2FCA0068A413 /* 808k_g-1.wav in Resources */,
+				7C21DC231E9B2FCA0068A413 /* 808k_g#-1.wav in Resources */,
+				7C21DC151E9B2FCA0068A413 /* 808k_c#.wav in Resources */,
 				7C3C3EEF1E99DE16004C2FB9 /* button_r.png in Resources */,
+				7C21DC1C1E9B2FCA0068A413 /* 808k_e.wav in Resources */,
+				7C21DC1D1E9B2FCA0068A413 /* 808k_f-1.wav in Resources */,
+				7C21DC0C1E9B2FCA0068A413 /* 808k_a-1.wav in Resources */,
 				7C3C3EEE1E99DE16004C2FB9 /* button_g.png in Resources */,
+				7C21DC201E9B2FCA0068A413 /* 808k_f#.wav in Resources */,
+				7C21DC0E1E9B2FCA0068A413 /* 808k_a#-1.wav in Resources */,
+				7C21DC0F1E9B2FCA0068A413 /* 808k_a#.wav in Resources */,
+				7C21DC0D1E9B2FCA0068A413 /* 808k_a.wav in Resources */,
+				7C21DC221E9B2FCA0068A413 /* 808k_g.wav in Resources */,
+				7C21DC161E9B2FCA0068A413 /* 808k_c+1.wav in Resources */,
 				7C3C3EF01E99DE16004C2FB9 /* button_y.png in Resources */,
+				7C21DC1F1E9B2FCA0068A413 /* 808k_f#-1.wav in Resources */,
+				7C21DC141E9B2FCA0068A413 /* 808k_c#-1.wav in Resources */,
 				7C3C3EDD1E99C8FD004C2FB9 /* LaunchScreen.storyboard in Resources */,
 				7C3C3EE81E99CF3C004C2FB9 /* button.png in Resources */,
+				7C21DC171E9B2FCA0068A413 /* 808k_d-1.wav in Resources */,
+				7C21DC1B1E9B2FCA0068A413 /* 808k_e-1.wav in Resources */,
 				7C3C3EDA1E99C8FD004C2FB9 /* Assets.xcassets in Resources */,
+				7C21DC131E9B2FCA0068A413 /* 808k_c.wav in Resources */,
+				7C21DC241E9B2FCA0068A413 /* 808k_g#.wav in Resources */,
+				7C21DC101E9B2FCA0068A413 /* 808k_b-1.wav in Resources */,
+				7C21DC111E9B2FCA0068A413 /* 808k_b.wav in Resources */,
 				7C3C3ED81E99C8FD004C2FB9 /* Main.storyboard in Resources */,
+				7C21DC121E9B2FCA0068A413 /* 808k_c-1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +447,7 @@
 				7C3C3EE31E99C8FD004C2FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
