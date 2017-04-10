@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		7C3C3ED31E99C8FD004C2FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3C3ED21E99C8FD004C2FB9 /* AppDelegate.swift */; };
-		7C3C3ED51E99C8FD004C2FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3C3ED41E99C8FD004C2FB9 /* ViewController.swift */; };
 		7C3C3ED81E99C8FD004C2FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3ED61E99C8FD004C2FB9 /* Main.storyboard */; };
 		7C3C3EDA1E99C8FD004C2FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3ED91E99C8FD004C2FB9 /* Assets.xcassets */; };
 		7C3C3EDD1E99C8FD004C2FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3EDB1E99C8FD004C2FB9 /* LaunchScreen.storyboard */; };
+		7C3C3EE81E99CF3C004C2FB9 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3EE71E99CF3C004C2FB9 /* button.png */; };
+		7C3C3EEA1E99D4CF004C2FB9 /* ButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3C3EE91E99D4CF004C2FB9 /* ButtonController.swift */; };
+		7C3C3EEE1E99DE16004C2FB9 /* button_g.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3EEB1E99DE16004C2FB9 /* button_g.png */; };
+		7C3C3EEF1E99DE16004C2FB9 /* button_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3EEC1E99DE16004C2FB9 /* button_r.png */; };
+		7C3C3EF01E99DE16004C2FB9 /* button_y.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3EED1E99DE16004C2FB9 /* button_y.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C3C3ECF1E99C8FD004C2FB9 /* CarlokoZSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarlokoZSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3C3ED21E99C8FD004C2FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C3C3ED41E99C8FD004C2FB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C3C3ED71E99C8FD004C2FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C3C3ED91E99C8FD004C2FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C3C3EDC1E99C8FD004C2FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C3C3EDE1E99C8FD004C2FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C3C3EE71E99CF3C004C2FB9 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = images/button.png; sourceTree = "<group>"; };
+		7C3C3EE91E99D4CF004C2FB9 /* ButtonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonController.swift; sourceTree = "<group>"; };
+		7C3C3EEB1E99DE16004C2FB9 /* button_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_g.png; path = images/button_g.png; sourceTree = "<group>"; };
+		7C3C3EEC1E99DE16004C2FB9 /* button_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_r.png; path = images/button_r.png; sourceTree = "<group>"; };
+		7C3C3EED1E99DE16004C2FB9 /* button_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_y.png; path = images/button_y.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		7C3C3ED11E99C8FD004C2FB9 /* CarlokoZSounds */ = {
 			isa = PBXGroup;
 			children = (
+				7C3C3EE61E99CF23004C2FB9 /* images */,
 				7C3C3ED21E99C8FD004C2FB9 /* AppDelegate.swift */,
-				7C3C3ED41E99C8FD004C2FB9 /* ViewController.swift */,
 				7C3C3ED61E99C8FD004C2FB9 /* Main.storyboard */,
 				7C3C3ED91E99C8FD004C2FB9 /* Assets.xcassets */,
 				7C3C3EDB1E99C8FD004C2FB9 /* LaunchScreen.storyboard */,
 				7C3C3EDE1E99C8FD004C2FB9 /* Info.plist */,
+				7C3C3EE91E99D4CF004C2FB9 /* ButtonController.swift */,
 			);
 			path = CarlokoZSounds;
+			sourceTree = "<group>";
+		};
+		7C3C3EE61E99CF23004C2FB9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7C3C3EEB1E99DE16004C2FB9 /* button_g.png */,
+				7C3C3EEC1E99DE16004C2FB9 /* button_r.png */,
+				7C3C3EED1E99DE16004C2FB9 /* button_y.png */,
+				7C3C3EE71E99CF3C004C2FB9 /* button.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3C3EEF1E99DE16004C2FB9 /* button_r.png in Resources */,
+				7C3C3EEE1E99DE16004C2FB9 /* button_g.png in Resources */,
+				7C3C3EF01E99DE16004C2FB9 /* button_y.png in Resources */,
 				7C3C3EDD1E99C8FD004C2FB9 /* LaunchScreen.storyboard in Resources */,
+				7C3C3EE81E99CF3C004C2FB9 /* button.png in Resources */,
 				7C3C3EDA1E99C8FD004C2FB9 /* Assets.xcassets in Resources */,
 				7C3C3ED81E99C8FD004C2FB9 /* Main.storyboard in Resources */,
 			);
@@ -136,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C3C3ED51E99C8FD004C2FB9 /* ViewController.swift in Sources */,
+				7C3C3EEA1E99D4CF004C2FB9 /* ButtonController.swift in Sources */,
 				7C3C3ED31E99C8FD004C2FB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
