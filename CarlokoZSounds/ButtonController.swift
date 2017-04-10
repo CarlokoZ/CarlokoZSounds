@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import AudioKit
 
 class ButtonController: UIViewController {
     
@@ -47,7 +48,8 @@ class ButtonController: UIViewController {
     var greenButton = UIImage(named: "button_g.png")
     var yellowButton = UIImage(named: "button_y.png")
     var arrayOfImageViews = [UIImageView]()
-    
+
+//    AVFOUNDATION entities
 //    808 kicks - hi C  to mid C (high octave)
     var audioURL_c2 = NSURL(fileURLWithPath: Bundle.main.path(forResource: "808k_c+1", ofType: "wav")!)
     var audioPlayer_c2 = AVAudioPlayer()
@@ -115,14 +117,13 @@ class ButtonController: UIViewController {
     var audioURL_dSharp0 = NSURL(fileURLWithPath: Bundle.main.path(forResource: "808k_d", ofType: "wav")!)
     var audioPlayer_dSharp0 = AVAudioPlayer()
     
-    
-    
-    
-    
-    
-    
-    
-    
+    //    AUDIOKIT entities
+//    Audio Player
+    var eightOhEight : AKAudioFile!
+    var marimba : AKAudioFile!
+    var audioPlayer : AKAudioPlayer!
+//    Sampler
+    var sampler : AKSampler!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -132,8 +133,13 @@ class ButtonController: UIViewController {
         for  imageView in arrayOfImageViews {
             tapColour(thisImage: imageView)
         }
+        
+        sampler = AKSampler()
+//        eightOhEight = try! AKAudioFile(readFileName: "marimba_c.wav", baseDir: .resources)
+        marimba = try! AKAudioFile(readFileName: "marimba_c.wav", baseDir: .resources)
+//        audioPlayer = try! AKAudioPlayer(file: self.eightOhEight)
+        try! self.sampler.loadAudioFile(marimba)
         print("viewDidLoad() complete...")
-        // Do any additional setup after loading the view, typically from a nib.
     }
    
 //    ROW A
@@ -142,6 +148,15 @@ class ButtonController: UIViewController {
         print("A1 has been tapped")
         tapColour(thisImage: a1image)
         buttonTimer = Timer.scheduledTimer(timeInterval: buttonColourInterval, target: self, selector: #selector(tapColour2), userInfo: a1image, repeats: false)
+        
+        
+//        AudioKit.output = audioPlayer
+//        AudioKit.start()
+//        audioPlayer.currentTime = 0
+//        audioPlayer.play()
+        AudioKit.output = sampler
+        AudioKit.start()
+        sampler.play()
         
     }
     @IBAction func tap_A2(_ sender: Any) {
