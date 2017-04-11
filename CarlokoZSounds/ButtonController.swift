@@ -42,7 +42,7 @@ class ButtonController: UIViewController {
     @IBOutlet var g4image: UIImageView!
     
     var buttonTimer = Timer()
-    var buttonColourInterval = 0.1
+    let buttonColourInterval = 0.1
     var whiteButton = UIImage(named: "button.png")
     var redButton = UIImage(named: "button_r.png")
     var greenButton = UIImage(named: "button_g.png")
@@ -124,6 +124,8 @@ class ButtonController: UIViewController {
     var audioPlayer : AKAudioPlayer!
 //    Sampler
     var sampler : AKSampler!
+//    Time Pitch
+    var timePitch : AKTimePitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -133,7 +135,6 @@ class ButtonController: UIViewController {
         for  imageView in arrayOfImageViews {
             tapColour(thisImage: imageView)
         }
-        
         sampler = AKSampler()
 //        eightOhEight = try! AKAudioFile(readFileName: "marimba_c.wav", baseDir: .resources)
         marimba = try! AKAudioFile(readFileName: "marimba_c.wav", baseDir: .resources)
@@ -163,6 +164,17 @@ class ButtonController: UIViewController {
         print("A2 has been tapped")
         tapColour(thisImage: a2image)
         buttonTimer = Timer.scheduledTimer(timeInterval: buttonColourInterval, target: self, selector: #selector(tapColour2), userInfo: a2image, repeats: false)
+        
+        audioPlayer = try! AKAudioPlayer(file: marimba)
+        timePitch = AKTimePitch(audioPlayer)
+        timePitch.pitch = 100
+        timePitch.rate = 1.0
+        timePitch.overlap = 8.0
+        
+        AudioKit.output = timePitch
+        AudioKit.start()
+        audioPlayer.play()
+        
     }
     @IBAction func tap_A3(_ sender: Any) {
         print("A3 has been tapped")
