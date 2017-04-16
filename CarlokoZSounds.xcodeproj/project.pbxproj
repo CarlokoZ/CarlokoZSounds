@@ -45,6 +45,8 @@
 		7C3C3EEE1E99DE16004C2FB9 /* button_g.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3EEB1E99DE16004C2FB9 /* button_g.png */; };
 		7C3C3EEF1E99DE16004C2FB9 /* button_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3EEC1E99DE16004C2FB9 /* button_r.png */; };
 		7C3C3EF01E99DE16004C2FB9 /* button_y.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3EED1E99DE16004C2FB9 /* button_y.png */; };
+		7C463D6B1EA1BB15004C4A37 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C463D6A1EA1BB15004C4A37 /* Sound.swift */; };
+		7C463D6F1EA1BD73004C4A37 /* KeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C463D6E1EA1BD73004C4A37 /* KeyboardController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +103,8 @@
 		7C3C3EEB1E99DE16004C2FB9 /* button_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_g.png; path = images/button_g.png; sourceTree = "<group>"; };
 		7C3C3EEC1E99DE16004C2FB9 /* button_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_r.png; path = images/button_r.png; sourceTree = "<group>"; };
 		7C3C3EED1E99DE16004C2FB9 /* button_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_y.png; path = images/button_y.png; sourceTree = "<group>"; };
+		7C463D6A1EA1BB15004C4A37 /* Sound.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = Sound.swift; sourceTree = "<group>"; };
+		7C463D6E1EA1BD73004C4A37 /* KeyboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,10 +186,12 @@
 				7C3C3EE61E99CF23004C2FB9 /* images */,
 				7C3C3ED21E99C8FD004C2FB9 /* AppDelegate.swift */,
 				7C3C3ED61E99C8FD004C2FB9 /* Main.storyboard */,
+				7C463D6E1EA1BD73004C4A37 /* KeyboardController.swift */,
 				7C3C3ED91E99C8FD004C2FB9 /* Assets.xcassets */,
 				7C3C3EDB1E99C8FD004C2FB9 /* LaunchScreen.storyboard */,
 				7C3C3EDE1E99C8FD004C2FB9 /* Info.plist */,
 				7C3C3EE91E99D4CF004C2FB9 /* ButtonController.swift */,
+				7C463D6A1EA1BB15004C4A37 /* Sound.swift */,
 			);
 			path = CarlokoZSounds;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 				TargetAttributes = {
 					7C3C3ECE1E99C8FD004C2FB9 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6996Y7473C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -304,7 +311,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C463D6F1EA1BD73004C4A37 /* KeyboardController.swift in Sources */,
 				7C3C3EEA1E99D4CF004C2FB9 /* ButtonController.swift in Sources */,
+				7C463D6B1EA1BB15004C4A37 /* Sound.swift in Sources */,
 				7C3C3ED31E99C8FD004C2FB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6996Y7473C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CarlokoZSounds",
@@ -444,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6996Y7473C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CarlokoZSounds",
