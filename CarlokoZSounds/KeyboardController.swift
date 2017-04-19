@@ -84,56 +84,47 @@ class KeyboardController: UIViewController {
             let sampleIndex = Int(note - 60)
             arrayOfSamplers[sampleIndex].play(noteNumber: MIDINoteNumber(note))
     }
-    
-    @IBAction func note_C(_ sender: Any) {
-        playNote(note: c)
+
+    @IBAction func noteC(_ sender: Any) {
+        playNote(note:c)
     }
 
-    @IBAction func note_CSharp(_ sender: Any) {
+    @IBAction func noteCs(_ sender: Any) {
         playNote(note: cSharp)
     }
     
-    @IBAction func note_D(_ sender: Any) {
+    @IBAction func noteD(_ sender: Any) {
         playNote(note: d)
     }
-    
-    @IBAction func note_DSharp(_ sender: Any) {
+    @IBAction func noteDs(_ sender: Any) {
         playNote(note: dSharp)
     }
-    
-    @IBAction func note_E(_ sender: Any) {
+    @IBAction func noteE(_ sender: Any) {
         playNote(note: e)
     }
-    
-    @IBAction func note_F(_ sender: Any) {
+    @IBAction func noteF(_ sender: Any) {
         playNote(note: f)
     }
-    
-    @IBAction func note_FSharp(_ sender: Any) {
+    @IBAction func noteFs(_ sender: Any) {
         playNote(note: fSharp)
     }
-    
-    @IBAction func note_G(_ sender: Any) {
+    @IBAction func noteG(_ sender: Any) {
         playNote(note: g)
     }
-    
-    @IBAction func note_GSharp(_ sender: Any) {
+    @IBAction func noteGs(_ sender: Any) {
         playNote(note: gSharp)
     }
-    
-    @IBAction func note_A(_ sender: Any) {
+    @IBAction func noteA(_ sender: Any) {
         playNote(note: a)
     }
-    
-    @IBAction func note_ASharp(_ sender: Any) {
+    @IBAction func noteAs(_ sender: Any) {
         playNote(note: aSharp)
     }
-    
-    @IBAction func note_B(_ sender: Any) {
-        playNote(note: b)
+    @IBAction func noteB(_ sender: Any) {
+         playNote(note: b)
     }
     
-    @IBAction func note_C2(_ sender: Any) {
+    @IBAction func noteC2(_ sender: Any) {
         playNote(note: c2)
     }
     

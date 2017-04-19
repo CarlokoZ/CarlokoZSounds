@@ -11,36 +11,41 @@ import UIKit
 import AudioKit
 
 class ButtonController: UIViewController {
-    
-    @IBOutlet var a1image: UIImageView!
-    @IBOutlet var a2image: UIImageView!
-    @IBOutlet var a3image: UIImageView!
-    @IBOutlet var a4image: UIImageView!
-    @IBOutlet var b1image: UIImageView!
-    @IBOutlet var b2image: UIImageView!
-    @IBOutlet var b3image: UIImageView!
-    @IBOutlet var b4image: UIImageView!
-    @IBOutlet var c1image: UIImageView!
-    @IBOutlet var c2image: UIImageView!
-    @IBOutlet var c3image: UIImageView!
-    @IBOutlet var c4image: UIImageView!
-    @IBOutlet var d1image: UIImageView!
-    @IBOutlet var d2image: UIImageView!
-    @IBOutlet var d3image: UIImageView!
-    @IBOutlet var d4image: UIImageView!
-    @IBOutlet var e1image: UIImageView!
-    @IBOutlet var e2image: UIImageView!
-    @IBOutlet var e3image: UIImageView!
-    @IBOutlet var e4image: UIImageView!
-    @IBOutlet var f1image: UIImageView!
-    @IBOutlet var f2image: UIImageView!
-    @IBOutlet var f3image: UIImageView!
-    @IBOutlet var f4image: UIImageView!
-    @IBOutlet var g1image: UIImageView!
-    @IBOutlet var g2image: UIImageView!
-    @IBOutlet var g3image: UIImageView!
-    @IBOutlet var g4image: UIImageView!
 
+    @IBOutlet var a1Button: UIButton!
+    @IBOutlet var a2Button: UIButton!
+    @IBOutlet var a3Button: UIButton!
+    @IBOutlet var a4Button: UIButton!
+    
+    @IBOutlet var b1Button: UIButton!
+    @IBOutlet var b2Button: UIButton!
+    @IBOutlet var b3Button: UIButton!
+    @IBOutlet var b4Button: UIButton!
+    
+    @IBOutlet var c1Button: UIButton!
+    @IBOutlet var c2Button: UIButton!
+    @IBOutlet var c3Button: UIButton!
+    @IBOutlet var c4Button: UIButton!
+    
+    @IBOutlet var d1Button: UIButton!
+    @IBOutlet var d2Button: UIButton!
+    @IBOutlet var d3Button: UIButton!
+    @IBOutlet var d4Button: UIButton!
+    
+    @IBOutlet var e1Button: UIButton!
+    @IBOutlet var e2Button: UIButton!
+    @IBOutlet var e3Button: UIButton!
+    @IBOutlet var e4Button: UIButton!
+    
+    @IBOutlet var f1Button: UIButton!
+    @IBOutlet var f2Button: UIButton!
+    @IBOutlet var f3Button: UIButton!
+    @IBOutlet var f4Button: UIButton!
+    
+    
+    @IBOutlet var tempoIndicator: UILabel!
+    @IBOutlet var reverbLabel: UILabel!
+    
     var buttonTimer = Timer()
     let buttonColourInterval = 0.1
     var whiteButton = UIImage(named: "button.png")
@@ -59,37 +64,6 @@ class ButtonController: UIViewController {
     var eightOhEight : AKAudioFile!
     var marimba : AKAudioFile!
     var audioPlayer : AKAudioPlayer!
-    //    button players
-    //    row a - g & columns 1 - 4
-//    var player_a1: AKAudioPlayer!
-//    var player_a2: AKAudioPlayer!
-//    var player_a3: AKAudioPlayer!
-//    var player_a4: AKAudioPlayer!
-//    var player_b1: AKAudioPlayer!
-//    var player_b2: AKAudioPlayer!
-//    var player_b3: AKAudioPlayer!
-//    var player_b4: AKAudioPlayer!
-//    var player_c1: AKAudioPlayer!
-//    var player_c2: AKAudioPlayer!
-//    var player_c3: AKAudioPlayer!
-//    var player_c4: AKAudioPlayer!
-//    var player_d1: AKAudioPlayer!
-//    var player_d2: AKAudioPlayer!
-//    var player_d3: AKAudioPlayer!
-//    var player_d4: AKAudioPlayer!
-//    var player_e1: AKAudioPlayer!
-//    var player_e2: AKAudioPlayer!
-//    var player_e3: AKAudioPlayer!
-//    var player_e4: AKAudioPlayer!
-//    var player_f1: AKAudioPlayer!
-//    var player_f2: AKAudioPlayer!
-//    var player_f3: AKAudioPlayer!
-//    var player_f4: AKAudioPlayer!
-//    var player_g1: AKAudioPlayer!
-//    var player_g2: AKAudioPlayer!
-//    var player_g3: AKAudioPlayer!
-//    var player_g4: AKAudioPlayer!
-    //    array of the above audio players listed
     var arrayOfAudioPlayers = [AKAudioPlayer!]()
 //    Sampler
     var sampler : AKSampler!
@@ -119,6 +93,7 @@ class ButtonController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         print("creating audio files...")
 //        marimba = try! AKAudioFile(readFileName: "marimba_c.wav", baseDir: .resources)
 //        eightOhEight = try! AKAudioFile(readFileName: "808k_c+1.wav", baseDir: .resources)
@@ -139,15 +114,15 @@ class ButtonController: UIViewController {
     
         
         
-        print("adding all ImageViews to array...")
-        arrayOfImageViews = [a1image,a2image,a3image,a4image,b1image,b2image,b3image,b4image,c1image,c2image,c3image,c4image,d1image,d2image,d3image,d4image,f1image,f2image,f3image,f4image,g1image,g2image,g3image]
-        
-        print("assigning white button to all IV's")
-        for  imageView in arrayOfImageViews {
-            tapColour(thisImage: imageView)
-        }
-        g4image.image = backButton
-        
+//        print("adding all ImageViews to array...")
+//        arrayOfImageViews = [a1image,a2image,a3image,a4image,b1image,b2image,b3image,b4image,c1image,c2image,c3image,c4image,d1image,d2image,d3image,d4image,f1image,f2image,f3image,f4image,g2image,g3image]
+//        
+//        print("assigning white button to all IV's")
+//        for  imageView in arrayOfImageViews {
+//            tapColour(thisImage: imageView)
+//        }
+//        g4image.image = backButton
+//        
         print("initializing mixer...")
         
         mixer = AKMixer(a1Sampler, a2Sampler,a3Sampler,a4Sampler)
@@ -156,6 +131,9 @@ class ButtonController: UIViewController {
         AudioKit.start()
         
         
+        tempoIndicator.text = String("Tempo")
+        reverbLabel.text = String("Reverb")
+        
         print("viewDidLoad() complete...")
     }
 
@@ -163,109 +141,95 @@ class ButtonController: UIViewController {
 //    Button Tap Colour Changer Function
 //    ==============================
     
-    func buttonBlink(identifier: String,  buttonImageView: UIImageView){
+    func buttonBlink(identifier: String,  buttonImageView: UIButton){
         print(identifier + " has been tapped")
-        tapColour(thisImage: buttonImageView)
+//        tapColour(thisImage: buttonImageView.imageView)
         buttonTimer = Timer.scheduledTimer(timeInterval: buttonColourInterval, target: self, selector: #selector(tapColour2), userInfo: buttonImageView, repeats: false)
     }
     
 //    =============================
 //    ROW A
-//    =============================
-    @IBAction func tap_A1(_ sender: Any)
-    {
-        buttonID = "A1"
-        buttonBlink(identifier: buttonID, buttonImageView: a1image)
-//        marimbaSampler.play()
+//    =============================
+    @IBAction func button_A1(_ sender: Any) {
+//        buttonID = "A1"
+//        buttonBlink(identifier: buttonID, buttonImageView: a1Button)
+        //        marimbaSampler.play()
         a1Sampler.play(noteNumber: MIDINoteNumber(60))
     }
-    @IBAction func tap_A2(_ sender: Any) {
-        buttonID = "A2"
-        buttonBlink(identifier:buttonID, buttonImageView: a2image)
-        //        eightOhEightSampler.play()
+    
+    @IBAction func button_A2(_ sender: Any) {
         a1Sampler.play(noteNumber: MIDINoteNumber(61))
     }
     
-    @IBAction func tap_A3(_ sender: Any) {
-        buttonID = "A3"
-        buttonBlink(identifier: buttonID, buttonImageView:  a3image)
-        //        samplerArray[0].play(noteNumber: 1)
+    @IBAction func button_A3(_ sender: Any) {
         a1Sampler.play(noteNumber: MIDINoteNumber(62))
     }
     
-    @IBAction func tap_A4(_ sender: Any) {
-        buttonID = "A4"
-        buttonBlink(identifier: buttonID, buttonImageView:  a4image)
-        //        samplerArray[1].play(noteNumber: 2)
+    @IBAction func button_A4(_ sender: Any) {
         a1Sampler.play(noteNumber: MIDINoteNumber(63))
     }
     
-//    ROW B
-    
-    @IBAction func tap_B1(_ sender: Any) {
-        print("B1 has been tapped")
-        tapColour(thisImage: b1image)
-        buttonTimer = Timer.scheduledTimer(timeInterval: buttonColourInterval, target: self, selector: #selector(tapColour2), userInfo: b1image, repeats: false)
-    }
-    @IBAction func tap_B2(_ sender: Any) {
-        print("B2 has been tapped")
-        tapColour(thisImage: b2image)
-        buttonTimer = Timer.scheduledTimer(timeInterval: buttonColourInterval, target: self, selector: #selector(tapColour2), userInfo: b2image, repeats: false)
-    }
-    @IBAction func tap_B3(_ sender: Any) {
-        print("B3 has been tapped")
-        tapColour(thisImage: b3image)
-        buttonTimer = Timer.scheduledTimer(timeInterval: buttonColourInterval, target: self, selector: #selector(tapColour2), userInfo: b3image, repeats: false)
-    }
-    @IBAction func tap_B4(_ sender: Any) {
-        print("B4 has been tapped")
-        tapColour(thisImage: b4image)
-        buttonTimer = Timer.scheduledTimer(timeInterval: buttonColourInterval, target: self, selector: #selector(tapColour2), userInfo: b4image, repeats: false)
-    }
-//    ROW C
-    
-    @IBAction func tap_C1(_ sender: Any) {
-        print("C1 has been tapped")
-        tapColour(thisImage: c1image)
-    }
-    @IBAction func tap_C2(_ sender: Any) {
-        print("C2 has been tapped")
-        tapColour(thisImage: c2image)
-    }
-    @IBAction func tap_C3(_ sender: Any) {
-        print("C3 has been tapped")
-        tapColour(thisImage: c3image)
-    }
-    @IBAction func tap_C4(_ sender: Any) {
-        print("C4 has been tapped")
-        tapColour(thisImage: c4image)
+    @IBAction func button_B1(_ sender: Any) {
     }
     
-//    ROW D
-    
-    @IBAction func tap_D1(_ sender: Any) {
-        print("D1 has been tapped")
-        tapColour(thisImage: d1image)
-    }
-    @IBAction func tap_D2(_ sender: Any) {
-        print("D2 has been tapped")
-        tapColour(thisImage: d2image)
-    }
-    @IBAction func tap_D3(_ sender: Any) {
-        print("D3 has been tapped")
-        tapColour(thisImage: d3image)
-    }
-    @IBAction func tap_D4(_ sender: Any) {
-        print("D4 has been tapped")
-        tapColour(thisImage: d4image)
+    @IBAction func button_B2(_ sender: Any) {
     }
     
-//    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        for touch in touches{
-//                tapColour(thisImage: )
-//        }
-//    }
+    @IBAction func button_B3(_ sender: Any) {
+    }
     
+    @IBAction func button_B4(_ sender: Any) {
+    }
+    
+    @IBAction func button_C1(_ sender: Any) {
+    }
+    @IBAction func button_C2(_ sender: Any) {
+    }
+    @IBAction func button_C3(_ sender: Any) {
+    }
+    @IBAction func button_C4(_ sender: Any) {
+    }
+    
+    @IBAction func button_D1(_ sender: Any) {
+    }
+    
+    @IBAction func button_D2(_ sender: Any) {
+    }
+    
+    @IBAction func button_D3(_ sender: Any) {
+    }
+    
+    @IBAction func button_D4(_ sender: Any) {
+    }
+    
+    
+    @IBAction func button_E1(_ sender: Any) {
+    }
+    
+    @IBAction func button_E2(_ sender: Any) {
+    }
+    
+    @IBAction func button_E3(_ sender: Any) {
+    }
+    
+    @IBAction func button_E4(_ sender: Any) {
+    }
+    
+    @IBAction func button_F1(_ sender: Any) {
+    }
+    @IBAction func button_F2(_ sender: Any) {
+    }
+    @IBAction func button_F3(_ sender: Any) {
+    }
+    @IBAction func button_F4(_ sender: Any) {
+    }
+    
+    
+    
+    
+    @IBAction func button_G1(_ sender: Any) {
+        a1Sampler.play(noteNumber: MIDINoteNumber(60))
+    }
     
     //   ======================
     //    Pitched Sample Function
@@ -288,14 +252,14 @@ class ButtonController: UIViewController {
         arrayOfAudioPlayers[playerIndex].play()
     }
     
-    func tapColour( thisImage: UIImageView){
-        print("changing button colour")
-        if (thisImage.image == whiteButton){
-            thisImage.image = redButton
-        } else {
-            thisImage.image = whiteButton
-        }
-    }
+//    func tapColour( thisButton: UIButton){
+//        print("changing button colour")
+//        if (thisButton.backgroundImage(for: .normal) == whiteButton){
+//            thisButton.backgroundImage(for: .normal) = redButton
+//        } else {
+//            thisButton.backgroundImage(for: .normal)  = whiteButton
+//        }
+//    }
     
     func tapColour2( timer:Timer){
         let thisImage: UIImageView = timer.userInfo as! UIImageView
@@ -311,6 +275,16 @@ class ButtonController: UIViewController {
     @IBAction func goingBack(_ sender: Any) {
         AudioKit.stop()
         AudioKit.engine.stop()
+    }
+    
+    @IBAction func setTempo(_ sender: Any) {
+        let alert = UIAlertController(title: "Alert", message: "Message", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
+        alert.addTextField(configurationHandler: {(textField: UITextField!) in
+            textField.placeholder = "Enter text:"
+            textField.isSecureTextEntry = true // for password input
+        })
+        self.present(alert, animated: true, completion: nil)
     }
     
     func testFunc(timer: Timer){

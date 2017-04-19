@@ -70,118 +70,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="NnO-cr-ReI">
-                                <rect key="frame" x="16" y="20" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="jph-1C-Swt" appends="YES" id="Pla-GU-A6Z"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="muD-cP-i5S">
-                                <rect key="frame" x="108" y="20" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="K1M-bd-E3N" appends="YES" id="YSs-CA-OWa"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="wBq-dh-I4q">
-                                <rect key="frame" x="202" y="20" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="X2l-6u-fmO" appends="YES" id="JSi-0D-oNy"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="aIV-Gy-jIB">
-                                <rect key="frame" x="295" y="20" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="7HK-b7-8XU" appends="YES" id="jvQ-qn-gQ4"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="AAr-rM-Ezw">
-                                <rect key="frame" x="16" y="113" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="NWw-84-FzE" appends="YES" id="Ccq-p6-KSj"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="tsf-uh-Fet">
-                                <rect key="frame" x="16" y="301" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="sGy-T2-NzX" appends="YES" id="N0e-EP-MTw"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="cbJ-2l-7yd">
-                                <rect key="frame" x="16" y="206" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Yjc-0h-6mt" appends="YES" id="Tpp-yb-8lY"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="NbW-tY-wfy">
-                                <rect key="frame" x="295" y="206" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Dwk-nH-Cby" appends="YES" id="mQz-t4-blf"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="mmi-ZX-e9d">
-                                <rect key="frame" x="108" y="301" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Tya-4w-G9Y" appends="YES" id="6sF-3N-zOI"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="VMI-Ai-1L4">
-                                <rect key="frame" x="202" y="301" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Qpz-Tr-VZJ" appends="YES" id="rzR-PV-n1n"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="G8L-nb-X8Q">
-                                <rect key="frame" x="295" y="301" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="uV2-ol-A0f" appends="YES" id="FSq-pa-Kfn"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="J3M-59-6OD">
-                                <rect key="frame" x="16" y="583" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="iHf-1B-Ven">
-                                <rect key="frame" x="16" y="485" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="qYb-VY-X0I">
-                                <rect key="frame" x="202" y="392" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="F3G-M9-0X9">
-                                <rect key="frame" x="295" y="392" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="6iC-CR-HNR">
-                                <rect key="frame" x="108" y="485" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="PUV-EI-XJ7">
-                                <rect key="frame" x="295" y="485" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="FwG-wS-beu">
                                 <rect key="frame" x="295" y="583" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
@@ -194,100 +82,264 @@
                                 <rect key="frame" x="108" y="583" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="e5x-pz-oCa">
-                                <rect key="frame" x="16" y="392" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="DsR-gJ-lTF">
-                                <rect key="frame" x="108" y="206" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="2C5-cA-DHv" appends="YES" id="fxq-R3-n14"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zre-G4-MMU">
-                                <rect key="frame" x="202" y="206" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="TPY-BQ-o3D" appends="YES" id="5PS-7k-KeU"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="b55-NC-T5I">
-                                <rect key="frame" x="108" y="111" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="2et-Bb-mgf" appends="YES" id="r6T-Od-pyG"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="049-uE-CmF">
-                                <rect key="frame" x="202" y="113" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="kRm-ki-2Af" appends="YES" id="VA3-k9-dhU"/>
-                                </connections>
-                            </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="0fG-Yi-7tU">
                                 <rect key="frame" x="202" y="583" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="AfL-VX-qpy">
-                                <rect key="frame" x="295" y="113" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="hPS-rJ-JRK" appends="YES" id="Mkc-gk-6JP"/>
+                                    <outletCollection property="gestureRecognizers" destination="xaT-oE-Thk" appends="YES" id="KKG-ds-53f"/>
                                 </connections>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="c3z-Ir-Cqf">
-                                <rect key="frame" x="108" y="392" width="64" height="64"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tempo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEr-hX-V1l" userLabel="Tempo">
+                                <rect key="frame" x="208" y="605" width="53" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reverb" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdK-Hr-36Y">
+                                <rect key="frame" x="113" y="605" width="54" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xR-PK-D6u" userLabel="G1">
+                                <rect key="frame" x="16" y="583" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_G1:" destination="BYZ-38-t0r" eventType="touchDown" id="20C-ds-r5g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTh-SI-GHP" userLabel="A1">
+                                <rect key="frame" x="16" y="20" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_A1:" destination="BYZ-38-t0r" eventType="touchDown" id="f0M-EH-REC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eae-LD-ifz" userLabel="A2">
+                                <rect key="frame" x="108" y="20" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_A2:" destination="BYZ-38-t0r" eventType="touchDown" id="OKL-8c-W1d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbn-Yx-qTc" userLabel="A3">
+                                <rect key="frame" x="202" y="20" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_A3:" destination="BYZ-38-t0r" eventType="touchDown" id="cdb-DE-Bb5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaD-gD-0h1" userLabel="A4">
+                                <rect key="frame" x="295" y="20" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_A4:" destination="BYZ-38-t0r" eventType="touchDown" id="n5T-7N-EdB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xec-e5-vc6" userLabel="B1">
+                                <rect key="frame" x="16" y="113" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_B1:" destination="BYZ-38-t0r" eventType="touchDown" id="47Y-Zh-e7j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQx-VT-cZf" userLabel="B2">
+                                <rect key="frame" x="108" y="113" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="aPy-ab-Gah">
-                                <rect key="frame" x="202" y="485" width="64" height="64"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_B2:" destination="BYZ-38-t0r" eventType="touchDown" id="nGR-Bu-r9f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0F-QN-e9j" userLabel="B3">
+                                <rect key="frame" x="202" y="113" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_B3:" destination="BYZ-38-t0r" eventType="touchDown" id="Znr-rU-l4w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2l1-br-pAX" userLabel="B4">
+                                <rect key="frame" x="295" y="113" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_B4:" destination="BYZ-38-t0r" eventType="touchDown" id="y7q-ap-Ohp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZE-T1-pex" userLabel="C1">
+                                <rect key="frame" x="16" y="206" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_C1:" destination="BYZ-38-t0r" eventType="touchDown" id="nYk-7W-ral"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3V-Pm-4dn" userLabel="C2">
+                                <rect key="frame" x="108" y="206" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_C2:" destination="BYZ-38-t0r" eventType="touchDown" id="3gu-IE-mn0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pub-oZ-uwg" userLabel="C3">
+                                <rect key="frame" x="202" y="206" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_C3:" destination="BYZ-38-t0r" eventType="touchDown" id="Bo2-2z-VhF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHa-LF-evG" userLabel="C4">
+                                <rect key="frame" x="295" y="206" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_C4:" destination="BYZ-38-t0r" eventType="touchDown" id="8nK-xP-4FN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmq-PF-jk8" userLabel="D1">
+                                <rect key="frame" x="16" y="301" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_D1:" destination="BYZ-38-t0r" eventType="touchDown" id="6bG-yW-fq7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2S-12-ZUs" userLabel="D2">
+                                <rect key="frame" x="108" y="301" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_D2:" destination="BYZ-38-t0r" eventType="touchDown" id="mKK-mT-kA6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CB2-2F-H91" userLabel="D3">
+                                <rect key="frame" x="202" y="301" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_D3:" destination="BYZ-38-t0r" eventType="touchDown" id="PGU-15-G4V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKr-xS-9Fe" userLabel="D4">
+                                <rect key="frame" x="295" y="301" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_D4:" destination="BYZ-38-t0r" eventType="touchDown" id="vns-WT-2wf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcn-uH-S9O" userLabel="E1">
+                                <rect key="frame" x="16" y="391" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_E1:" destination="BYZ-38-t0r" eventType="touchDown" id="5OB-V4-SDT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4f5-nw-foe" userLabel="E2">
+                                <rect key="frame" x="108" y="391" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_E2:" destination="BYZ-38-t0r" eventType="touchDown" id="jTU-6z-vtI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGm-vc-7zO" userLabel="E3">
+                                <rect key="frame" x="202" y="391" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_E3:" destination="BYZ-38-t0r" eventType="touchDown" id="ySh-SQ-JcX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RvR-bb-DLZ" userLabel="E4">
+                                <rect key="frame" x="295" y="391" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_E4:" destination="BYZ-38-t0r" eventType="touchDown" id="GHP-O3-5ih"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTK-nB-RGB" userLabel="F1">
+                                <rect key="frame" x="16" y="489" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_F1:" destination="BYZ-38-t0r" eventType="touchDown" id="vFI-jb-BQf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wt0-Tp-XTe" userLabel="F2">
+                                <rect key="frame" x="108" y="487" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_F2:" destination="BYZ-38-t0r" eventType="touchDown" id="bMN-Ff-rOS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7T-1T-e5P" userLabel="F3">
+                                <rect key="frame" x="202" y="487" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_F3:" destination="BYZ-38-t0r" eventType="touchDown" id="oKF-AW-M97"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiY-0L-Nhd" userLabel="F4">
+                                <rect key="frame" x="295" y="487" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_F4:" destination="BYZ-38-t0r" eventType="touchDown" id="5my-YQ-Y44"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                     </view>
                     <connections>
-                        <outlet property="a1image" destination="NnO-cr-ReI" id="37a-Fb-SlP"/>
-                        <outlet property="a2image" destination="muD-cP-i5S" id="e2X-vc-LoQ"/>
-                        <outlet property="a3image" destination="wBq-dh-I4q" id="CtQ-JN-XSL"/>
-                        <outlet property="a4image" destination="aIV-Gy-jIB" id="Oi4-Iq-oqx"/>
-                        <outlet property="b1image" destination="AAr-rM-Ezw" id="4ty-EY-TuF"/>
-                        <outlet property="b2image" destination="b55-NC-T5I" id="Tnz-2r-xcF"/>
-                        <outlet property="b3image" destination="049-uE-CmF" id="Fys-0z-XVZ"/>
-                        <outlet property="b4image" destination="AfL-VX-qpy" id="not-UR-ec4"/>
-                        <outlet property="c1image" destination="cbJ-2l-7yd" id="FoZ-Ow-upn"/>
-                        <outlet property="c2image" destination="DsR-gJ-lTF" id="P1a-Im-SYh"/>
-                        <outlet property="c3image" destination="Zre-G4-MMU" id="cbF-92-De2"/>
-                        <outlet property="c4image" destination="NbW-tY-wfy" id="xyw-Dr-oEb"/>
-                        <outlet property="d1image" destination="tsf-uh-Fet" id="CYQ-Um-zrI"/>
-                        <outlet property="d2image" destination="mmi-ZX-e9d" id="G1t-ox-gSf"/>
-                        <outlet property="d3image" destination="VMI-Ai-1L4" id="KC1-z0-4eJ"/>
-                        <outlet property="d4image" destination="G8L-nb-X8Q" id="sIr-pU-myt"/>
-                        <outlet property="e1image" destination="e5x-pz-oCa" id="zQa-ra-oeO"/>
-                        <outlet property="e2image" destination="c3z-Ir-Cqf" id="jR3-kA-QDZ"/>
-                        <outlet property="e3image" destination="qYb-VY-X0I" id="EgE-8S-BEe"/>
-                        <outlet property="e4image" destination="F3G-M9-0X9" id="m2j-RB-Iaz"/>
-                        <outlet property="f1image" destination="iHf-1B-Ven" id="6gy-iQ-wwt"/>
-                        <outlet property="f2image" destination="6iC-CR-HNR" id="Bcd-cX-LIl"/>
-                        <outlet property="f3image" destination="aPy-ab-Gah" id="aje-uU-dGa"/>
-                        <outlet property="f4image" destination="PUV-EI-XJ7" id="4EO-Dr-vo2"/>
-                        <outlet property="g1image" destination="J3M-59-6OD" id="Hv9-Wa-YlA"/>
-                        <outlet property="g2image" destination="n37-H9-RLv" id="ZWJ-cn-T1v"/>
-                        <outlet property="g3image" destination="0fG-Yi-7tU" id="Juj-FE-Ekb"/>
-                        <outlet property="g4image" destination="FwG-wS-beu" id="Gyz-wS-DiI"/>
+                        <outlet property="a1Button" destination="NTh-SI-GHP" id="618-GV-Uig"/>
+                        <outlet property="a2Button" destination="Eae-LD-ifz" id="tld-Ko-bDv"/>
+                        <outlet property="a3Button" destination="zbn-Yx-qTc" id="JUh-bp-F4X"/>
+                        <outlet property="a4Button" destination="LaD-gD-0h1" id="yZW-vc-JvU"/>
+                        <outlet property="b1Button" destination="Xec-e5-vc6" id="UHy-Jh-TbJ"/>
+                        <outlet property="b2Button" destination="QQx-VT-cZf" id="9sb-Xt-8US"/>
+                        <outlet property="b3Button" destination="N0F-QN-e9j" id="AO9-WI-0eC"/>
+                        <outlet property="b4Button" destination="2l1-br-pAX" id="xYS-A0-JEu"/>
+                        <outlet property="c1Button" destination="nZE-T1-pex" id="P8M-GW-YRC"/>
+                        <outlet property="c2Button" destination="v3V-Pm-4dn" id="cDD-Hv-aBc"/>
+                        <outlet property="c3Button" destination="pub-oZ-uwg" id="1Yc-X1-dU5"/>
+                        <outlet property="c4Button" destination="aHa-LF-evG" id="wsK-ii-X3U"/>
+                        <outlet property="d1Button" destination="xmq-PF-jk8" id="8xg-jN-e70"/>
+                        <outlet property="d2Button" destination="Y2S-12-ZUs" id="Uoe-oo-Cd9"/>
+                        <outlet property="d3Button" destination="CB2-2F-H91" id="HX7-S2-Kfm"/>
+                        <outlet property="d4Button" destination="cKr-xS-9Fe" id="EsH-PX-SlS"/>
+                        <outlet property="e1Button" destination="rcn-uH-S9O" id="vzx-sV-Ogg"/>
+                        <outlet property="e2Button" destination="4f5-nw-foe" id="nGo-CV-iXm"/>
+                        <outlet property="e3Button" destination="MGm-vc-7zO" id="6Ku-Xi-wu0"/>
+                        <outlet property="e4Button" destination="RvR-bb-DLZ" id="evJ-KU-McY"/>
+                        <outlet property="f1Button" destination="aTK-nB-RGB" id="ieN-c2-NT4"/>
+                        <outlet property="f2Button" destination="Wt0-Tp-XTe" id="leh-RY-gbM"/>
+                        <outlet property="f3Button" destination="O7T-1T-e5P" id="81t-3f-Pmo"/>
+                        <outlet property="f4Button" destination="kiY-0L-Nhd" id="rZT-F5-MZn"/>
+                        <outlet property="reverbLabel" destination="RdK-Hr-36Y" id="0jF-wa-sFK"/>
+                        <outlet property="tempoIndicator" destination="SEr-hX-V1l" id="1CT-Ra-fcE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="jph-1C-Swt" userLabel="tap A1">
+                <tapGestureRecognizer delaysTouchesEnded="NO" id="jph-1C-Swt" userLabel="tap A1">
                     <connections>
                         <action selector="tap_A1:" destination="BYZ-38-t0r" id="wWf-vk-Hcj"/>
                     </connections>
@@ -373,8 +425,13 @@
                         <segue destination="TWh-8o-h4i" kind="show" id="Ia2-WZ-0Y4"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="xaT-oE-Thk" userLabel="tap Tempo">
+                    <connections>
+                        <action selector="setTempo:" destination="BYZ-38-t0r" id="84u-Fd-efW"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="634" y="-583"/>
+            <point key="canvasLocation" x="632.79999999999995" y="-583.3583208395803"/>
         </scene>
         <!--Keyboard Controller-->
         <scene sceneID="geD-oM-Ayj">
@@ -392,11 +449,11 @@
                                 <rect key="frame" x="0.0" y="584" width="375" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
+                                <state key="normal" title="C">
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="note_C:" destination="uHf-cc-uCj" eventType="touchUpInside" id="AFa-C9-uAt"/>
+                                    <action selector="noteC:" destination="uHf-cc-uCj" eventType="touchDown" id="4Fw-KY-nwv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHc-I8-Zc2">
@@ -407,7 +464,7 @@
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="note_D:" destination="uHf-cc-uCj" eventType="touchUpInside" id="5en-g7-bc4"/>
+                                    <action selector="noteD:" destination="uHf-cc-uCj" eventType="touchDown" id="fTX-0P-iMd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5g0-7R-rlN">
@@ -418,7 +475,7 @@
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="note_E:" destination="uHf-cc-uCj" eventType="touchUpInside" id="JCL-X7-Awo"/>
+                                    <action selector="noteE:" destination="uHf-cc-uCj" eventType="touchDown" id="Mga-s2-PWm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qA-Eg-rha">
@@ -429,7 +486,7 @@
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="note_F:" destination="uHf-cc-uCj" eventType="touchUpInside" id="0Xw-Kf-a1I"/>
+                                    <action selector="noteF:" destination="uHf-cc-uCj" eventType="touchDown" id="guy-UY-v0n"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XdP-v9-5xR">
@@ -440,7 +497,7 @@
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="note_G:" destination="uHf-cc-uCj" eventType="touchUpInside" id="TnO-4w-chF"/>
+                                    <action selector="noteG:" destination="uHf-cc-uCj" eventType="touchDown" id="hZ6-QL-ROZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZT-mk-hSQ">
@@ -451,18 +508,18 @@
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="note_A:" destination="uHf-cc-uCj" eventType="touchUpInside" id="U1s-dA-unR"/>
+                                    <action selector="noteA:" destination="uHf-cc-uCj" eventType="touchDown" id="fuE-ke-8Si"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFS-NY-eBE">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="C">
+                                <state key="normal" title="C2">
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="note_C2:" destination="uHf-cc-uCj" eventType="touchUpInside" id="7xo-xO-hOi"/>
+                                    <action selector="noteC2:" destination="uHf-cc-uCj" eventType="touchDown" id="uqh-kH-cQD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyM-4j-INz">
@@ -473,7 +530,7 @@
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="note_B:" destination="uHf-cc-uCj" eventType="touchUpInside" id="FKH-X1-sOb"/>
+                                    <action selector="noteB:" destination="uHf-cc-uCj" eventType="touchDown" id="AAp-b9-blC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sk7-eo-CSw">
@@ -482,7 +539,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="C#"/>
                                 <connections>
-                                    <action selector="note_CSharp:" destination="uHf-cc-uCj" eventType="touchUpInside" id="8F1-KK-HgF"/>
+                                    <action selector="noteCs:" destination="uHf-cc-uCj" eventType="touchDown" id="4BI-mq-H8T"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNp-Xu-HNu">
@@ -491,7 +548,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="D#"/>
                                 <connections>
-                                    <action selector="note_DSharp:" destination="uHf-cc-uCj" eventType="touchUpInside" id="7QC-hs-GYa"/>
+                                    <action selector="noteDs:" destination="uHf-cc-uCj" eventType="touchDown" id="4Q6-Pg-2cx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bix-LF-WF2">
@@ -500,7 +557,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="F#"/>
                                 <connections>
-                                    <action selector="note_FSharp:" destination="uHf-cc-uCj" eventType="touchUpInside" id="VkR-Cg-B7X"/>
+                                    <action selector="noteFs:" destination="uHf-cc-uCj" eventType="touchDown" id="5lB-bq-Ecw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qt-p5-BoH">
@@ -509,7 +566,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="G#"/>
                                 <connections>
-                                    <action selector="note_GSharp:" destination="uHf-cc-uCj" eventType="touchUpInside" id="x30-OH-iYI"/>
+                                    <action selector="noteGs:" destination="uHf-cc-uCj" eventType="touchDown" id="8WQ-aN-YQ9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRj-bO-oRN">
@@ -518,7 +575,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="A#"/>
                                 <connections>
-                                    <action selector="note_ASharp:" destination="uHf-cc-uCj" eventType="touchUpInside" id="iKC-ZS-zPZ"/>
+                                    <action selector="noteAs:" destination="uHf-cc-uCj" eventType="touchDown" id="A4Z-uM-gtW"/>
                                 </connections>
                             </button>
                         </subviews>
