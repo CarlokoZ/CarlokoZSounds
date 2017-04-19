@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0CBC3F1EA6FE99003A6858 /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CBC3E1EA6FE99003A6858 /* button_back.png */; };
 		7C1691141E9C36AA00017CE4 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1691131E9C36AA00017CE4 /* AudioKit.framework */; };
 		7C1691151E9C36AA00017CE4 /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1691131E9C36AA00017CE4 /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7C16911B1E9C493C00017CE4 /* marimba_c.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C16911A1E9C493C00017CE4 /* marimba_c.wav */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7C0CBC3E1EA6FE99003A6858 /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_back.png; path = images/button_back.png; sourceTree = "<group>"; };
 		7C1691131E9C36AA00017CE4 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = CarlokoZSounds/AudioKit.framework; sourceTree = "<group>"; };
 		7C16911A1E9C493C00017CE4 /* marimba_c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = marimba_c.wav; path = audio/marimba_c.wav; sourceTree = "<group>"; };
 		7C21DBF21E9B2FCA0068A413 /* 808k_a-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "808k_a-1.wav"; path = "audio/808k_a-1.wav"; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 		7C3C3EE61E99CF23004C2FB9 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				7C0CBC3E1EA6FE99003A6858 /* button_back.png */,
 				7C3C3EEB1E99DE16004C2FB9 /* button_g.png */,
 				7C3C3EEC1E99DE16004C2FB9 /* button_r.png */,
 				7C3C3EED1E99DE16004C2FB9 /* button_y.png */,
@@ -288,6 +291,7 @@
 				7C21DC221E9B2FCA0068A413 /* 808k_g.wav in Resources */,
 				7C21DC161E9B2FCA0068A413 /* 808k_c+1.wav in Resources */,
 				7C3C3EF01E99DE16004C2FB9 /* button_y.png in Resources */,
+				7C0CBC3F1EA6FE99003A6858 /* button_back.png in Resources */,
 				7C21DC1F1E9B2FCA0068A413 /* 808k_f#-1.wav in Resources */,
 				7C21DC141E9B2FCA0068A413 /* 808k_c#-1.wav in Resources */,
 				7C3C3EDD1E99C8FD004C2FB9 /* LaunchScreen.storyboard in Resources */,

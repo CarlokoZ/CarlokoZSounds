@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AVFoundation
+//import AVFoundation
 import AudioKit
 
 class ButtonController: UIViewController {
@@ -47,6 +47,7 @@ class ButtonController: UIViewController {
     var redButton = UIImage(named: "button_r.png")
     var greenButton = UIImage(named: "button_g.png")
     var yellowButton = UIImage(named: "button_y.png")
+    var backButton = UIImage(named: "button_back.png")
     var arrayOfImageViews = [UIImageView]()
     var arrayOfNotePitches = [Double]()
 
@@ -60,34 +61,34 @@ class ButtonController: UIViewController {
     var audioPlayer : AKAudioPlayer!
     //    button players
     //    row a - g & columns 1 - 4
-    var player_a1: AKAudioPlayer!
-    var player_a2: AKAudioPlayer!
-    var player_a3: AKAudioPlayer!
-    var player_a4: AKAudioPlayer!
-    var player_b1: AKAudioPlayer!
-    var player_b2: AKAudioPlayer!
-    var player_b3: AKAudioPlayer!
-    var player_b4: AKAudioPlayer!
-    var player_c1: AKAudioPlayer!
-    var player_c2: AKAudioPlayer!
-    var player_c3: AKAudioPlayer!
-    var player_c4: AKAudioPlayer!
-    var player_d1: AKAudioPlayer!
-    var player_d2: AKAudioPlayer!
-    var player_d3: AKAudioPlayer!
-    var player_d4: AKAudioPlayer!
-    var player_e1: AKAudioPlayer!
-    var player_e2: AKAudioPlayer!
-    var player_e3: AKAudioPlayer!
-    var player_e4: AKAudioPlayer!
-    var player_f1: AKAudioPlayer!
-    var player_f2: AKAudioPlayer!
-    var player_f3: AKAudioPlayer!
-    var player_f4: AKAudioPlayer!
-    var player_g1: AKAudioPlayer!
-    var player_g2: AKAudioPlayer!
-    var player_g3: AKAudioPlayer!
-    var player_g4: AKAudioPlayer!
+//    var player_a1: AKAudioPlayer!
+//    var player_a2: AKAudioPlayer!
+//    var player_a3: AKAudioPlayer!
+//    var player_a4: AKAudioPlayer!
+//    var player_b1: AKAudioPlayer!
+//    var player_b2: AKAudioPlayer!
+//    var player_b3: AKAudioPlayer!
+//    var player_b4: AKAudioPlayer!
+//    var player_c1: AKAudioPlayer!
+//    var player_c2: AKAudioPlayer!
+//    var player_c3: AKAudioPlayer!
+//    var player_c4: AKAudioPlayer!
+//    var player_d1: AKAudioPlayer!
+//    var player_d2: AKAudioPlayer!
+//    var player_d3: AKAudioPlayer!
+//    var player_d4: AKAudioPlayer!
+//    var player_e1: AKAudioPlayer!
+//    var player_e2: AKAudioPlayer!
+//    var player_e3: AKAudioPlayer!
+//    var player_e4: AKAudioPlayer!
+//    var player_f1: AKAudioPlayer!
+//    var player_f2: AKAudioPlayer!
+//    var player_f3: AKAudioPlayer!
+//    var player_f4: AKAudioPlayer!
+//    var player_g1: AKAudioPlayer!
+//    var player_g2: AKAudioPlayer!
+//    var player_g3: AKAudioPlayer!
+//    var player_g4: AKAudioPlayer!
     //    array of the above audio players listed
     var arrayOfAudioPlayers = [AKAudioPlayer!]()
 //    Sampler
@@ -100,146 +101,64 @@ class ButtonController: UIViewController {
     var lastPressed : String!
     var buttonID : String!
     
-//    note pitches
-    var note_c2 : Double!=0
-    var note_b1 : Double!=0
-    var note_a1Sharp : Double!=0
-    var note_a1 : Double!=0
-    var note_g1Sharp : Double!=0
-    var note_g1 : Double!=0
-    var note_f1Sharp : Double!=0
-    var note_f1 : Double!=0
-    var note_e1 : Double!=0
-    var note_d1Sharp : Double!=0
-    var note_d1 : Double!=0
-    var note_c1Sharp : Double!=0
-    var note_c1 : Double!=0
-    var note_b0 : Double!=0
-    var note_a0Sharp : Double!=0
-    var note_a0 : Double!=0
-    var note_g0Sharp : Double!=0
-    var note_g0 : Double!=0
-    var note_f0Sharp : Double!=0
-    var note_f0 : Double!=0
-    var note_e0 : Double!=0
-    var note_d0Sharp : Double!=0
-    var note_d0 : Double!=0
-    var note_c0Sharp : Double!=0
-    var note_c0 : Double!=0
+    var marimbaSampler : AKSampler!
+    var eightOhEightSampler : AKSampler!
     
-//    test variables
-    var akAudioFile : AKAudioFile!
-    var avAudioFile : AVAudioFile!
-    var avAudioPCMBuffer : AVAudioPCMBuffer!
+    var a1Sampler : AKSampler!
+    var a2Sampler : AKSampler!
+    var a3Sampler : AKSampler!
+    var a4Sampler : AKSampler!
     
-    var avAudioEngine: AVAudioEngine!
-    var avAudioFilePlayer: AVAudioPlayerNode!
-    var playingStarted: Bool!
-//    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-//   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ VIEW DID LOAD FUNCTION~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//    var samplerArray : [AnyObject]
     
+    var mixer : AKMixer!
+    
+    //    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    //   ~~~~~~~~~~~~~~~~~~~~~~~ VIEW DID LOAD FUNCTION~~~~~~~~~~~~~~~~~~
+    //    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     override func viewDidLoad() {
         super.viewDidLoad()
-//        avAudioEngine = AVAudioEngine()
-//        avAudioFilePlayer = AVAudioPlayerNode()
         
-        print("creating audio file...")
-        marimba = try! AKAudioFile(readFileName: "marimba_c.wav", baseDir: .resources)
+        print("creating audio files...")
+//        marimba = try! AKAudioFile(readFileName: "marimba_c.wav", baseDir: .resources)
+//        eightOhEight = try! AKAudioFile(readFileName: "808k_c+1.wav", baseDir: .resources)
+        marimbaSampler = AKSampler()
+        eightOhEightSampler = AKSampler()
+        a1Sampler = AKSampler()
+        a2Sampler = AKSampler()
+        a3Sampler = AKSampler()
+        a4Sampler = AKSampler()
+        
+//        try! marimbaSampler.loadWav("marimba_c")
+//        try! eightOhEightSampler.loadWav("808k_c+1")
+        try! a1Sampler.loadWav("marimba_c")
+        try! a2Sampler.loadWav("marimba_c")
+        try! a3Sampler.loadWav("marimba_c")
+        try! a4Sampler.loadWav("marimba_c")
+        
+    
         
         
-//        //        ~~~~~~~~~~~~~~~~CURRENTLY UNUSED~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//        print("adding all ImageViews to array...")
-//        arrayOfImageViews = [a1image,a2image,a3image,a4image,b1image,b2image,b3image,b4image,c1image,c2image,c3image,c4image,d1image,d2image,d3image,d4image,f1image,f2image,f3image,f4image,g1image,g2image,g3image,g4image]
-//        print("assigning white button to all IV's")
-//        for  imageView in arrayOfImageViews {
-//            tapColour(thisImage: imageView)
-//        }
-//        
-//        print("putting all the note pitches into an array in incrementing order")
-//        pitchVariation = Double(-1200)
-//        arrayOfNotePitches = [note_c0, note_c0Sharp, note_d0, note_d0Sharp, note_e0, note_f0, note_f0Sharp, note_g0, note_g0Sharp, note_a0, note_a0Sharp, note_b0, note_c1, note_c1Sharp, note_d1, note_d1Sharp, note_e1, note_f1, note_f1Sharp, note_g1, note_g1Sharp, note_a1, note_a1Sharp, note_b1, note_c2]
-//        
-//        print("defining note increment")
-//        let semitonesInNote : Double! = 100
-//        
-//        print("adding pitch values to each note in array in the same order...")
-//        for i in 0 ..< arrayOfNotePitches.count {
-//            arrayOfNotePitches[i] = pitchVariation
-//            pitchVariation.add(semitonesInNote)
-//            let debugString : String = "setting semitones for note:  " + String(i)
-//            print(debugString)
-//            print(arrayOfNotePitches[i].debugDescription)
-//        }
-//        
-//        print("assigning audio player for each note...")
-//        arrayOfAudioPlayers = [player_a1, player_a2, player_a3,  player_a4,player_b1, player_b2, player_b3,  player_b4, player_c1, player_c2, player_c3,  player_c4,player_d1, player_d2, player_d3,  player_d4,player_e1, player_e2, player_e3,  player_e4,player_f1, player_f2, player_f3,  player_f4,player_g1, player_g2, player_g3,  player_g4]
-//        let numberOfAPs : String = "number of Audio Players in array: " + String(arrayOfAudioPlayers.count)
-//        print(numberOfAPs)
-//        
-//        for i in 0..<arrayOfAudioPlayers.count {
-//            arrayOfAudioPlayers[i] = try! AKAudioPlayer(file: self.marimba)
-//        }
-//        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//        //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        print("adding all ImageViews to array...")
+        arrayOfImageViews = [a1image,a2image,a3image,a4image,b1image,b2image,b3image,b4image,c1image,c2image,c3image,c4image,d1image,d2image,d3image,d4image,f1image,f2image,f3image,f4image,g1image,g2image,g3image]
         
-//        sampler = AKSampler()
-//        lastPressed = ""
-//        eightOhEight = try! AKAudioFile(readFileName: "marimba_c.wav", baseDir: .resources)
-//        audioPlayer = try! AKAudioPlayer(file: self.eightOhEight)
+        print("assigning white button to all IV's")
+        for  imageView in arrayOfImageViews {
+            tapColour(thisImage: imageView)
+        }
+        g4image.image = backButton
         
-//        try! self.sampler.loadAudioFile(marimba)
         print("initializing mixer...")
-//        let mixer = AKMixer(arrayOfAudioPlayers[0],arrayOfAudioPlayers[1])
-        let mixer = AKMixer(audioPlayer)
+        
+        mixer = AKMixer(a1Sampler, a2Sampler,a3Sampler,a4Sampler)
+        mixer.volume = 5.0
         AudioKit.output = mixer
         AudioKit.start()
         
-//        ~~~~~~~~~~~~~~~~~AV FILE CONVERSION TESTING~~~~~~~~~~~~~~~~~~~~~~~~
-//        print("TESTING AudioFile conversion")
-//        
-//        akAudioFile = try! AKAudioFile(readFileName: "marimba_c.wav", baseDir: .resources)
-//        avAudioFile = akAudioFile as AVAudioFile
-//        let fileFormat = avAudioFile.processingFormat
-//        let audioFrameCount = UInt32(avAudioFile.length)
-//        avAudioPCMBuffer = AVAudioPCMBuffer(pcmFormat: fileFormat, frameCapacity: audioFrameCount)
-//        try! avAudioFile.read(into: avAudioPCMBuffer)
-//        print("TESTING AudioEngine")
-//        let mainMixer = avAudioEngine.mainMixerNode
-//        avAudioEngine.attach(avAudioFilePlayer)
-//        avAudioEngine.connect(avAudioFilePlayer, to: mainMixer, format: avAudioPCMBuffer.format)
-//        try! avAudioEngine.start()
-        
-//
-//        audioFilePlayer.play()
-//        audioFilePlayer.scheduleBuffer(audioFileBuffer, atTime: nil, options: nil, completionHandler: nil)
-
         
         print("viewDidLoad() complete...")
     }
-    
-//   ======================
-//    Pitched Sample Function
-//   ======================
-    
-    func pitchedSample(buttonName: String,  buttonPitch: Double , audioFile: AKAudioFile, playerIndex: Int) {
-//        let player =  try! AKAudioPlayer(file: audioFile)
-        arrayOfAudioPlayers[playerIndex] = try! AKAudioPlayer(file: audioFile)
-        if lastPressed !=  buttonName {
-            timePitch = AKTimePitch(audioPlayer)
-            timePitch.pitch = buttonPitch
-            timePitch.rate = 1.0
-            timePitch.overlap = 8.0
-            //            beenPlayed = !beenPlayed
-            lastPressed = buttonName
-        }
-        
-        AudioKit.output = timePitch
-        AudioKit.start()
-        arrayOfAudioPlayers[playerIndex].play()
-    }
-    
+
 //    ==============================
 //    Button Tap Colour Changer Function
 //    ==============================
@@ -253,89 +172,32 @@ class ButtonController: UIViewController {
 //    =============================
 //    ROW A
 //    =============================
-    @IBAction func tap_A1(_ sender: Any) {
-        buttonBlink(identifier: "A1", buttonImageView: a1image)
-        timePitch = AKTimePitch(audioPlayer)
-        timePitch.pitch = 1000
-        timePitch.rate = 1.0
-        
+    @IBAction func tap_A1(_ sender: Any)
+    {
+        buttonID = "A1"
+        buttonBlink(identifier: buttonID, buttonImageView: a1image)
+//        marimbaSampler.play()
+        a1Sampler.play(noteNumber: MIDINoteNumber(60))
     }
-
-//    OLD CODE FOR A1
-//    {
-//    buttonBlink(identifier: "A1", buttonImageView: a1image)
-//    
-//    
-//    //        AudioKit.output = audioPlayer
-//    //        AudioKit.start()
-//    //        audioPlayer.currentTime = 0
-//    //        audioPlayer.play()
-//    //        if audioPlayer != nil && audioPlayer.isPlaying{
-//    //            audioPlayer.stop()
-//    ////        }
-//    //        if lastPressed != "A1"{
-//    //            audioPlayer = arrayOfAudioPlayers[0]
-//    //            player_a1 = try! AKAudioPlayer(file: marimba)
-//    timePitch = AKTimePitch(arrayOfAudioPlayers[0])
-//    timePitch.pitch = 0
-//    timePitch.rate = 1.0
-//    timePitch.overlap = 8.0
-//    //            lastPressed = "A1"
-//    //            }
-//    
-//    //            AudioKit.output = timePitch
-//    //            AudioKit.start()
-//    if arrayOfAudioPlayers[0].isPlaying{
-//    arrayOfAudioPlayers[0].stop()
-//    arrayOfAudioPlayers[0].play(from: 0.0)
-//    }
-//    arrayOfAudioPlayers[0].play(from: 0.0)
-//    
-//    //            AudioKit.output = sampler
-//    //            AudioKit.start()
-//    //            sampler.play()
-//    //            lastPressed = "A1"
-//    //        } else {
-//    //            sampler.play()
-//    //        }
-//    }
-    
     @IBAction func tap_A2(_ sender: Any) {
-        buttonBlink(identifier: "A2", buttonImageView: a2image)
-
-//        if audioPlayer != nil && audioPlayer.isPlaying{
-//            audioPlayer.replace(file: )
-//        }
-        
-//        if lastPressed !=  "A2"{
-        
-            timePitch = AKTimePitch(arrayOfAudioPlayers[1])
-            timePitch.pitch = 1000
-            timePitch.rate = 1.0
-//            timePitch.overlap = 8.0
-//            lastPressed = "A2"
-//        }
-//        
-//        AudioKit.output = timePitch
-//        AudioKit.start()
-        if arrayOfAudioPlayers[1].isPlaying{
-            arrayOfAudioPlayers[1].stop()
-        }
-        arrayOfAudioPlayers[1].play()
-        
+        buttonID = "A2"
+        buttonBlink(identifier:buttonID, buttonImageView: a2image)
+        //        eightOhEightSampler.play()
+        a1Sampler.play(noteNumber: MIDINoteNumber(61))
     }
     
     @IBAction func tap_A3(_ sender: Any) {
         buttonID = "A3"
         buttonBlink(identifier: buttonID, buttonImageView:  a3image)
-//        pitchedSample(buttonName: "A3", buttonPitch: note_d1, audioFile: marimba, playerIndex: 2)
-        avAudioFilePlayer.play()
+        //        samplerArray[0].play(noteNumber: 1)
+        a1Sampler.play(noteNumber: MIDINoteNumber(62))
     }
     
     @IBAction func tap_A4(_ sender: Any) {
         buttonID = "A4"
         buttonBlink(identifier: buttonID, buttonImageView:  a4image)
-        
+        //        samplerArray[1].play(noteNumber: 2)
+        a1Sampler.play(noteNumber: MIDINoteNumber(63))
     }
     
 //    ROW B
@@ -404,6 +266,28 @@ class ButtonController: UIViewController {
 //        }
 //    }
     
+    
+    //   ======================
+    //    Pitched Sample Function
+    //   ======================
+    
+    func pitchedSample(buttonName: String,  buttonPitch: Double , audioFile: AKAudioFile, playerIndex: Int) {
+        //        let player =  try! AKAudioPlayer(file: audioFile)
+        arrayOfAudioPlayers[playerIndex] = try! AKAudioPlayer(file: audioFile)
+        if lastPressed !=  buttonName {
+            timePitch = AKTimePitch(audioPlayer)
+            timePitch.pitch = buttonPitch
+            timePitch.rate = 1.0
+            timePitch.overlap = 8.0
+            //            beenPlayed = !beenPlayed
+            lastPressed = buttonName
+        }
+        
+        AudioKit.output = timePitch
+        AudioKit.start()
+        arrayOfAudioPlayers[playerIndex].play()
+    }
+    
     func tapColour( thisImage: UIImageView){
         print("changing button colour")
         if (thisImage.image == whiteButton){
@@ -424,6 +308,10 @@ class ButtonController: UIViewController {
     }
     
     
+    @IBAction func goingBack(_ sender: Any) {
+        AudioKit.stop()
+        AudioKit.engine.stop()
+    }
     
     func testFunc(timer: Timer){
         print("test function")
