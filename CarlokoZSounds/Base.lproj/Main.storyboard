@@ -70,48 +70,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="FwG-wS-beu">
-                                <rect key="frame" x="295" y="583" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="nuf-7b-e0K" appends="YES" id="lr6-6j-8pq"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="n37-H9-RLv">
-                                <rect key="frame" x="108" y="583" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button.png" translatesAutoresizingMaskIntoConstraints="NO" id="0fG-Yi-7tU">
-                                <rect key="frame" x="202" y="583" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="xaT-oE-Thk" appends="YES" id="KKG-ds-53f"/>
-                                </connections>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tempo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEr-hX-V1l" userLabel="Tempo">
-                                <rect key="frame" x="208" y="605" width="53" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reverb" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdK-Hr-36Y">
-                                <rect key="frame" x="113" y="605" width="54" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xR-PK-D6u" userLabel="G1">
-                                <rect key="frame" x="16" y="583" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <state key="normal" backgroundImage="button.png"/>
-                                <connections>
-                                    <action selector="button_G1:" destination="BYZ-38-t0r" eventType="touchDown" id="20C-ds-r5g"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTh-SI-GHP" userLabel="A1">
                                 <rect key="frame" x="16" y="20" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -182,6 +140,7 @@
                                 <state key="normal" backgroundImage="button.png"/>
                                 <connections>
                                     <action selector="button_C1:" destination="BYZ-38-t0r" eventType="touchDown" id="nYk-7W-ral"/>
+                                    <action selector="row_C:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SCw-bb-mll"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3V-Pm-4dn" userLabel="C2">
@@ -304,6 +263,39 @@
                                     <action selector="button_F4:" destination="BYZ-38-t0r" eventType="touchDown" id="5my-YQ-Y44"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xR-PK-D6u" userLabel="G1">
+                                <rect key="frame" x="16" y="583" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" backgroundImage="button.png"/>
+                                <connections>
+                                    <action selector="button_G1:" destination="BYZ-38-t0r" eventType="touchDown" id="20C-ds-r5g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="014-6i-a8t" userLabel="G2">
+                                <rect key="frame" x="108" y="583" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" backgroundImage="button_reverb.png"/>
+                                <connections>
+                                    <action selector="button_G2:" destination="BYZ-38-t0r" eventType="touchDown" id="tPC-MF-Ees"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMt-Ka-KAj" userLabel="G3">
+                                <rect key="frame" x="202" y="583" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" backgroundImage="button_metronome.png"/>
+                                <connections>
+                                    <action selector="button_G3:" destination="BYZ-38-t0r" eventType="touchDown" id="adO-yR-T5o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMB-PC-xPT" userLabel="G4">
+                                <rect key="frame" x="295" y="583" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <state key="normal" backgroundImage="button_back.png"/>
+                                <connections>
+                                    <action selector="button_G4:" destination="BYZ-38-t0r" eventType="touchDown" id="pIc-K2-6dj"/>
+                                    <segue destination="TWh-8o-h4i" kind="show" id="GyJ-IW-vIx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -334,102 +326,27 @@
                         <outlet property="f2Button" destination="Wt0-Tp-XTe" id="leh-RY-gbM"/>
                         <outlet property="f3Button" destination="O7T-1T-e5P" id="81t-3f-Pmo"/>
                         <outlet property="f4Button" destination="kiY-0L-Nhd" id="rZT-F5-MZn"/>
-                        <outlet property="reverbLabel" destination="RdK-Hr-36Y" id="0jF-wa-sFK"/>
-                        <outlet property="tempoIndicator" destination="SEr-hX-V1l" id="1CT-Ra-fcE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer delaysTouchesEnded="NO" id="jph-1C-Swt" userLabel="tap A1">
-                    <connections>
-                        <action selector="tap_A1:" destination="BYZ-38-t0r" id="wWf-vk-Hcj"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="K1M-bd-E3N" userLabel="tap A2">
-                    <connections>
-                        <action selector="tap_A2:" destination="BYZ-38-t0r" id="7dy-4L-TKk"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="X2l-6u-fmO" userLabel="tap A3">
-                    <connections>
-                        <action selector="tap_A3:" destination="BYZ-38-t0r" id="Cbr-fR-gUk"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="7HK-b7-8XU" userLabel="tap A4">
-                    <connections>
-                        <action selector="tap_A4:" destination="BYZ-38-t0r" id="qIR-2X-rWa"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="NWw-84-FzE" userLabel="tap B1">
-                    <connections>
-                        <action selector="tap_B1:" destination="BYZ-38-t0r" id="HqD-jy-29J"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="2et-Bb-mgf" userLabel="tap B2">
-                    <connections>
-                        <action selector="tap_B2:" destination="BYZ-38-t0r" id="r9e-t0-Szb"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="kRm-ki-2Af" userLabel="tap B3">
-                    <connections>
-                        <action selector="tap_B3:" destination="BYZ-38-t0r" id="X3y-J2-fMz"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="hPS-rJ-JRK" userLabel="tap B4">
-                    <connections>
-                        <action selector="tap_B4:" destination="BYZ-38-t0r" id="a2y-8w-VRK"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="Yjc-0h-6mt" userLabel="tap C1">
-                    <connections>
-                        <action selector="tap_C1:" destination="BYZ-38-t0r" id="55f-iu-70I"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="2C5-cA-DHv" userLabel="tap C2">
-                    <connections>
-                        <action selector="tap_C2:" destination="BYZ-38-t0r" id="8H7-fN-9or"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="TPY-BQ-o3D" userLabel="tap C3">
-                    <connections>
-                        <action selector="tap_C3:" destination="BYZ-38-t0r" id="HL6-FP-lOP"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="Dwk-nH-Cby" userLabel="tap C4">
-                    <connections>
-                        <action selector="tap_C4:" destination="BYZ-38-t0r" id="9oL-4T-Gxw"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="sGy-T2-NzX" userLabel="tap D1">
-                    <connections>
-                        <action selector="tap_D1:" destination="BYZ-38-t0r" id="uah-JO-3ql"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="Tya-4w-G9Y" userLabel="tap D2">
-                    <connections>
-                        <action selector="tap_D2:" destination="BYZ-38-t0r" id="Xkc-vC-W3B"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="Qpz-Tr-VZJ" userLabel="tap D3">
-                    <connections>
-                        <action selector="tap_D3:" destination="BYZ-38-t0r" id="rd4-QS-ain"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="uV2-ol-A0f" userLabel="tap D4">
-                    <connections>
-                        <action selector="tap_D4:" destination="BYZ-38-t0r" id="cIX-Pd-1Tl"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="nuf-7b-e0K" userLabel="tap Back">
-                    <connections>
-                        <action selector="goingBack:" destination="BYZ-38-t0r" id="Sbh-Db-V8X"/>
-                        <segue destination="TWh-8o-h4i" kind="show" id="Ia2-WZ-0Y4"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="xaT-oE-Thk" userLabel="tap Tempo">
-                    <connections>
-                        <action selector="setTempo:" destination="BYZ-38-t0r" id="84u-Fd-efW"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <tapGestureRecognizer delaysTouchesEnded="NO" id="jph-1C-Swt" userLabel="tap A1"/>
+                <tapGestureRecognizer id="K1M-bd-E3N" userLabel="tap A2"/>
+                <tapGestureRecognizer id="X2l-6u-fmO" userLabel="tap A3"/>
+                <tapGestureRecognizer id="7HK-b7-8XU" userLabel="tap A4"/>
+                <tapGestureRecognizer id="NWw-84-FzE" userLabel="tap B1"/>
+                <tapGestureRecognizer id="2et-Bb-mgf" userLabel="tap B2"/>
+                <tapGestureRecognizer id="kRm-ki-2Af" userLabel="tap B3"/>
+                <tapGestureRecognizer id="hPS-rJ-JRK" userLabel="tap B4"/>
+                <tapGestureRecognizer id="Yjc-0h-6mt" userLabel="tap C1"/>
+                <tapGestureRecognizer id="2C5-cA-DHv" userLabel="tap C2"/>
+                <tapGestureRecognizer id="TPY-BQ-o3D" userLabel="tap C3"/>
+                <tapGestureRecognizer id="Dwk-nH-Cby" userLabel="tap C4"/>
+                <tapGestureRecognizer id="sGy-T2-NzX" userLabel="tap D1"/>
+                <tapGestureRecognizer id="Tya-4w-G9Y" userLabel="tap D2"/>
+                <tapGestureRecognizer id="Qpz-Tr-VZJ" userLabel="tap D3"/>
+                <tapGestureRecognizer id="uV2-ol-A0f" userLabel="tap D4"/>
+                <tapGestureRecognizer id="nuf-7b-e0K" userLabel="tap Back"/>
+                <tapGestureRecognizer id="xaT-oE-Thk" userLabel="tap Tempo"/>
             </objects>
             <point key="canvasLocation" x="632.79999999999995" y="-583.3583208395803"/>
         </scene>
@@ -591,5 +508,7 @@
     <resources>
         <image name="button.png" width="64" height="64"/>
         <image name="button_back.png" width="64" height="64"/>
+        <image name="button_metronome.png" width="64" height="64"/>
+        <image name="button_reverb.png" width="64" height="64"/>
     </resources>
 </document>

@@ -48,6 +48,23 @@
 		7C3C3EF01E99DE16004C2FB9 /* button_y.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3C3EED1E99DE16004C2FB9 /* button_y.png */; };
 		7C463D6B1EA1BB15004C4A37 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C463D6A1EA1BB15004C4A37 /* Sound.swift */; };
 		7C463D6F1EA1BD73004C4A37 /* KeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C463D6E1EA1BD73004C4A37 /* KeyboardController.swift */; };
+		7C810B881EA7EBBF00A7D70D /* 2k11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B791EA7EBBF00A7D70D /* 2k11.wav */; };
+		7C810B891EA7EBBF00A7D70D /* blown_tm_a.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B7A1EA7EBBF00A7D70D /* blown_tm_a.wav */; };
+		7C810B8A1EA7EBBF00A7D70D /* blown_tm_b.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B7B1EA7EBBF00A7D70D /* blown_tm_b.wav */; };
+		7C810B8B1EA7EBBF00A7D70D /* class_harp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B7C1EA7EBBF00A7D70D /* class_harp.wav */; };
+		7C810B8C1EA7EBBF00A7D70D /* clave.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B7D1EA7EBBF00A7D70D /* clave.wav */; };
+		7C810B8D1EA7EBBF00A7D70D /* digibell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B7E1EA7EBBF00A7D70D /* digibell.wav */; };
+		7C810B8F1EA7EBBF00A7D70D /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B801EA7EBBF00A7D70D /* kick.wav */; };
+		7C810B901EA7EBBF00A7D70D /* ph.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B811EA7EBBF00A7D70D /* ph.wav */; };
+		7C810B921EA7EBBF00A7D70D /* SL_808K_C4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B831EA7EBBF00A7D70D /* SL_808K_C4.wav */; };
+		7C810B931EA7EBBF00A7D70D /* SL_nanoP_c.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B841EA7EBBF00A7D70D /* SL_nanoP_c.wav */; };
+		7C810B941EA7EBBF00A7D70D /* snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B851EA7EBBF00A7D70D /* snare.wav */; };
+		7C810B951EA7EBBF00A7D70D /* weh_choir_cMajor5th.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B861EA7EBBF00A7D70D /* weh_choir_cMajor5th.wav */; };
+		7C810B961EA7EBBF00A7D70D /* weh_choir_cMinor5th.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B871EA7EBBF00A7D70D /* weh_choir_cMinor5th.wav */; };
+		7C810B9A1EA7F1DE00A7D70D /* hat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B991EA7F1DE00A7D70D /* hat.wav */; };
+		7C810B9C1EA7F31A00A7D70D /* shat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C810B9B1EA7F31A00A7D70D /* shat.wav */; };
+		7CFB91D81EA84D3200F5BDA2 /* button_metronome.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFB91D71EA84D3200F5BDA2 /* button_metronome.png */; };
+		7CFB91DA1EA8566900F5BDA2 /* button_reverb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFB91D91EA8566900F5BDA2 /* button_reverb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -107,6 +124,23 @@
 		7C3C3EED1E99DE16004C2FB9 /* button_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_y.png; path = images/button_y.png; sourceTree = "<group>"; };
 		7C463D6A1EA1BB15004C4A37 /* Sound.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = Sound.swift; sourceTree = "<group>"; };
 		7C463D6E1EA1BD73004C4A37 /* KeyboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardController.swift; sourceTree = "<group>"; };
+		7C810B791EA7EBBF00A7D70D /* 2k11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 2k11.wav; path = audio/2k11.wav; sourceTree = "<group>"; };
+		7C810B7A1EA7EBBF00A7D70D /* blown_tm_a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = blown_tm_a.wav; path = audio/blown_tm_a.wav; sourceTree = "<group>"; };
+		7C810B7B1EA7EBBF00A7D70D /* blown_tm_b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = blown_tm_b.wav; path = audio/blown_tm_b.wav; sourceTree = "<group>"; };
+		7C810B7C1EA7EBBF00A7D70D /* class_harp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = class_harp.wav; path = audio/class_harp.wav; sourceTree = "<group>"; };
+		7C810B7D1EA7EBBF00A7D70D /* clave.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clave.wav; path = audio/clave.wav; sourceTree = "<group>"; };
+		7C810B7E1EA7EBBF00A7D70D /* digibell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = digibell.wav; path = audio/digibell.wav; sourceTree = "<group>"; };
+		7C810B801EA7EBBF00A7D70D /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kick.wav; path = audio/kick.wav; sourceTree = "<group>"; };
+		7C810B811EA7EBBF00A7D70D /* ph.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ph.wav; path = audio/ph.wav; sourceTree = "<group>"; };
+		7C810B831EA7EBBF00A7D70D /* SL_808K_C4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SL_808K_C4.wav; path = audio/SL_808K_C4.wav; sourceTree = "<group>"; };
+		7C810B841EA7EBBF00A7D70D /* SL_nanoP_c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SL_nanoP_c.wav; path = audio/SL_nanoP_c.wav; sourceTree = "<group>"; };
+		7C810B851EA7EBBF00A7D70D /* snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = snare.wav; path = audio/snare.wav; sourceTree = "<group>"; };
+		7C810B861EA7EBBF00A7D70D /* weh_choir_cMajor5th.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = weh_choir_cMajor5th.wav; path = audio/weh_choir_cMajor5th.wav; sourceTree = "<group>"; };
+		7C810B871EA7EBBF00A7D70D /* weh_choir_cMinor5th.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = weh_choir_cMinor5th.wav; path = audio/weh_choir_cMinor5th.wav; sourceTree = "<group>"; };
+		7C810B991EA7F1DE00A7D70D /* hat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hat.wav; path = audio/hat.wav; sourceTree = "<group>"; };
+		7C810B9B1EA7F31A00A7D70D /* shat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = shat.wav; path = audio/shat.wav; sourceTree = "<group>"; };
+		7CFB91D71EA84D3200F5BDA2 /* button_metronome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_metronome.png; path = images/button_metronome.png; sourceTree = "<group>"; };
+		7CFB91D91EA8566900F5BDA2 /* button_reverb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_reverb.png; path = images/button_reverb.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +159,21 @@
 		7C21DBF11E9B2E3B0068A413 /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				7C810B9B1EA7F31A00A7D70D /* shat.wav */,
+				7C810B791EA7EBBF00A7D70D /* 2k11.wav */,
+				7C810B7A1EA7EBBF00A7D70D /* blown_tm_a.wav */,
+				7C810B7B1EA7EBBF00A7D70D /* blown_tm_b.wav */,
+				7C810B7C1EA7EBBF00A7D70D /* class_harp.wav */,
+				7C810B7D1EA7EBBF00A7D70D /* clave.wav */,
+				7C810B7E1EA7EBBF00A7D70D /* digibell.wav */,
+				7C810B801EA7EBBF00A7D70D /* kick.wav */,
+				7C810B811EA7EBBF00A7D70D /* ph.wav */,
+				7C810B831EA7EBBF00A7D70D /* SL_808K_C4.wav */,
+				7C810B841EA7EBBF00A7D70D /* SL_nanoP_c.wav */,
+				7C810B851EA7EBBF00A7D70D /* snare.wav */,
+				7C810B861EA7EBBF00A7D70D /* weh_choir_cMajor5th.wav */,
+				7C810B871EA7EBBF00A7D70D /* weh_choir_cMinor5th.wav */,
+				7C810B991EA7F1DE00A7D70D /* hat.wav */,
 				7C16911A1E9C493C00017CE4 /* marimba_c.wav */,
 				7C21DBF21E9B2FCA0068A413 /* 808k_a-1.wav */,
 				7C21DBF31E9B2FCA0068A413 /* 808k_a.wav */,
@@ -201,6 +250,8 @@
 		7C3C3EE61E99CF23004C2FB9 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				7CFB91D91EA8566900F5BDA2 /* button_reverb.png */,
+				7CFB91D71EA84D3200F5BDA2 /* button_metronome.png */,
 				7C0CBC3E1EA6FE99003A6858 /* button_back.png */,
 				7C3C3EEB1E99DE16004C2FB9 /* button_g.png */,
 				7C3C3EEC1E99DE16004C2FB9 /* button_r.png */,
@@ -271,39 +322,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C810B9A1EA7F1DE00A7D70D /* hat.wav in Resources */,
+				7C810B8F1EA7EBBF00A7D70D /* kick.wav in Resources */,
 				7C21DC1E1E9B2FCA0068A413 /* 808k_f.wav in Resources */,
 				7C21DC181E9B2FCA0068A413 /* 808k_d.wav in Resources */,
 				7C21DC191E9B2FCA0068A413 /* 808k_d#-1.wav in Resources */,
 				7C16911B1E9C493C00017CE4 /* marimba_c.wav in Resources */,
 				7C21DC1A1E9B2FCA0068A413 /* 808k_d#.wav in Resources */,
 				7C21DC211E9B2FCA0068A413 /* 808k_g-1.wav in Resources */,
+				7C810B951EA7EBBF00A7D70D /* weh_choir_cMajor5th.wav in Resources */,
 				7C21DC231E9B2FCA0068A413 /* 808k_g#-1.wav in Resources */,
 				7C21DC151E9B2FCA0068A413 /* 808k_c#.wav in Resources */,
 				7C3C3EEF1E99DE16004C2FB9 /* button_r.png in Resources */,
 				7C21DC1C1E9B2FCA0068A413 /* 808k_e.wav in Resources */,
 				7C21DC1D1E9B2FCA0068A413 /* 808k_f-1.wav in Resources */,
+				7C810B941EA7EBBF00A7D70D /* snare.wav in Resources */,
 				7C21DC0C1E9B2FCA0068A413 /* 808k_a-1.wav in Resources */,
 				7C3C3EEE1E99DE16004C2FB9 /* button_g.png in Resources */,
 				7C21DC201E9B2FCA0068A413 /* 808k_f#.wav in Resources */,
+				7C810B961EA7EBBF00A7D70D /* weh_choir_cMinor5th.wav in Resources */,
 				7C21DC0E1E9B2FCA0068A413 /* 808k_a#-1.wav in Resources */,
+				7CFB91D81EA84D3200F5BDA2 /* button_metronome.png in Resources */,
 				7C21DC0F1E9B2FCA0068A413 /* 808k_a#.wav in Resources */,
 				7C21DC0D1E9B2FCA0068A413 /* 808k_a.wav in Resources */,
+				7C810B8A1EA7EBBF00A7D70D /* blown_tm_b.wav in Resources */,
+				7C810B8C1EA7EBBF00A7D70D /* clave.wav in Resources */,
 				7C21DC221E9B2FCA0068A413 /* 808k_g.wav in Resources */,
+				7C810B8D1EA7EBBF00A7D70D /* digibell.wav in Resources */,
 				7C21DC161E9B2FCA0068A413 /* 808k_c+1.wav in Resources */,
 				7C3C3EF01E99DE16004C2FB9 /* button_y.png in Resources */,
 				7C0CBC3F1EA6FE99003A6858 /* button_back.png in Resources */,
+				7C810B931EA7EBBF00A7D70D /* SL_nanoP_c.wav in Resources */,
 				7C21DC1F1E9B2FCA0068A413 /* 808k_f#-1.wav in Resources */,
 				7C21DC141E9B2FCA0068A413 /* 808k_c#-1.wav in Resources */,
+				7C810B9C1EA7F31A00A7D70D /* shat.wav in Resources */,
 				7C3C3EDD1E99C8FD004C2FB9 /* LaunchScreen.storyboard in Resources */,
 				7C3C3EE81E99CF3C004C2FB9 /* button.png in Resources */,
 				7C21DC171E9B2FCA0068A413 /* 808k_d-1.wav in Resources */,
+				7C810B921EA7EBBF00A7D70D /* SL_808K_C4.wav in Resources */,
 				7C21DC1B1E9B2FCA0068A413 /* 808k_e-1.wav in Resources */,
 				7C3C3EDA1E99C8FD004C2FB9 /* Assets.xcassets in Resources */,
+				7CFB91DA1EA8566900F5BDA2 /* button_reverb.png in Resources */,
 				7C21DC131E9B2FCA0068A413 /* 808k_c.wav in Resources */,
+				7C810B8B1EA7EBBF00A7D70D /* class_harp.wav in Resources */,
 				7C21DC241E9B2FCA0068A413 /* 808k_g#.wav in Resources */,
 				7C21DC101E9B2FCA0068A413 /* 808k_b-1.wav in Resources */,
+				7C810B881EA7EBBF00A7D70D /* 2k11.wav in Resources */,
+				7C810B891EA7EBBF00A7D70D /* blown_tm_a.wav in Resources */,
 				7C21DC111E9B2FCA0068A413 /* 808k_b.wav in Resources */,
 				7C3C3ED81E99C8FD004C2FB9 /* Main.storyboard in Resources */,
+				7C810B901EA7EBBF00A7D70D /* ph.wav in Resources */,
 				7C21DC121E9B2FCA0068A413 /* 808k_c-1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
